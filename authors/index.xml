@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Authors | Khush: Roboticist</title>
+    <link>https://khush3.github.io/authors/</link>
+      <atom:link href="https://khush3.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
+    <description>Authors</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0530</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Authors</title>
+      <link>https://khush3.github.io/authors/</link>
+    </image>
+    
+    <item>
+      <title>**Khush Agrawal**</title>
+      <link>https://khush3.github.io/authors/khush-agrawal/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0530</pubDate>
+      <guid>https://khush3.github.io/authors/khush-agrawal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Rohit Lal</title>
+      <link>https://khush3.github.io/authors/rohit-lal/</link>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0530</pubDate>
+      <guid>https://khush3.github.io/authors/rohit-lal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aman Jain</title>
+      <link>https://khush3.github.io/authors/aman-jain/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0530</pubDate>
+      <guid>https://khush3.github.io/authors/aman-jain/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aniket Gujarathi</title>
+      <link>https://khush3.github.io/authors/aniket-gujarathi/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0530</pubDate>
+      <guid>https://khush3.github.io/authors/aniket-gujarathi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Harsha Namdeo</title>
+      <link>https://khush3.github.io/authors/harsha-namdeo/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0530</pubDate>
+      <guid>https://khush3.github.io/authors/harsha-namdeo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Navid Panchi</title>
+      <link>https://khush3.github.io/authors/navid-panchi/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0530</pubDate>
+      <guid>https://khush3.github.io/authors/navid-panchi/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Shital S. Chiddarwar</title>
+      <link>https://khush3.github.io/authors/shital-s.-chiddarwar/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0530</pubDate>
+      <guid>https://khush3.github.io/authors/shital-s.-chiddarwar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unmesh Patil</title>
+      <link>https://khush3.github.io/authors/unmesh-patil/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0530</pubDate>
+      <guid>https://khush3.github.io/authors/unmesh-patil/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://khush3.github.io/authors/admin/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/authors/admin/</guid>
+      <description>&lt;p&gt;My interest lies in robotics, particularly in machine learning and electronic aspects. I look forward to developing robotic-systems that tightly couple cognition and electronics. I have worked on machine learning for a while now, and have developed a keen interest in reinforcement learning.&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

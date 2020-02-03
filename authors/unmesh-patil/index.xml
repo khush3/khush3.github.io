@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Unmesh Patil | Khush: Roboticist</title>
+    <link>https://khush3.github.io/authors/unmesh-patil/</link>
+      <atom:link href="https://khush3.github.io/authors/unmesh-patil/index.xml" rel="self" type="application/rss+xml" />
+    <description>Unmesh Patil</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sun, 01 Dec 2019 00:00:00 +0530</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Unmesh Patil</title>
+      <link>https://khush3.github.io/authors/unmesh-patil/</link>
+    </image>
+    
+    <item>
+      <title>Deep Learning-Based Stair Segmentation and Behavioral Cloning for Autonomous Stair Climbing</title>
+      <link>https://khush3.github.io/publication/stair_climbing/</link>
+      <pubDate>Sun, 01 Dec 2019 00:00:00 +0530</pubDate>
+      <guid>https://khush3.github.io/publication/stair_climbing/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

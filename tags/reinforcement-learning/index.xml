@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Reinforcement Learning | Khush: Roboticist</title>
+    <link>https://khush3.github.io/tags/reinforcement-learning/</link>
+      <atom:link href="https://khush3.github.io/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Reinforcement Learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Reinforcement Learning</title>
+      <link>https://khush3.github.io/tags/reinforcement-learning/</link>
+    </image>
+    
+    <item>
+      <title>Experience Transfer</title>
+      <link>https://khush3.github.io/project/experience-transfer/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/project/experience-transfer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Representation Learning to bost Deep Q-Learning</title>
+      <link>https://khush3.github.io/project/representation_rl/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/project/representation_rl/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Implementation of Reinforcement Learning algorithms</title>
+      <link>https://khush3.github.io/project/rl-implementation/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/project/rl-implementation/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
