@@ -13,6 +13,16 @@
     </image>
     
     <item>
+      <title>Harmonic Motion Analyzer</title>
+      <link>https://khush3.github.io/project/harmonic-motion-analyzer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/project/harmonic-motion-analyzer/</guid>
+      <description>&lt;p&gt;A video is selected to analyze its motion. Proper color threshold is set to identify the object and its centroid location is obtained. Every coordinate of the centroid is stored and later its extremum are calculated. All values are stored then in a csv file. Using elementary mathematics and retrieved data,an equation of motion is calculated.
+*&lt;em&gt;this project was made for TechnoSeason, 2017 and was awarded first prize.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Pose estimation of a differential drive robot</title>
       <link>https://khush3.github.io/project/pose_estim/</link>
       <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>

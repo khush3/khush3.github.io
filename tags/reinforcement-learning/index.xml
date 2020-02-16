@@ -36,5 +36,15 @@
       <description></description>
     </item>
     
+    <item>
+      <title>Terra-former Robot</title>
+      <link>https://khush3.github.io/project/terra-former-robot/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/project/terra-former-robot/</guid>
+      <description>&lt;p&gt;A robot for moving objects. It is differential drive based Bluetooth controlled robot. A 3 DoF servo controlled arm is made with a gripper end effector for pick and place mechanism. 2 Arduinos are used for controlling arm and motion independently. A single channel relay is used for optimizing power consumption by switching off the arm when not in use.
+*&lt;em&gt;This project was made for AXIS(Technical Event at NIT-Nagpur), 2017 and was awarded a prize for innovative design.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
   </channel>
 </rss>

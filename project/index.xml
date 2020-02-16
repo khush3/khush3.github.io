@@ -37,11 +37,31 @@
     </item>
     
     <item>
+      <title>Terra-former Robot</title>
+      <link>https://khush3.github.io/project/terra-former-robot/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/project/terra-former-robot/</guid>
+      <description>&lt;p&gt;A robot for moving objects. It is differential drive based Bluetooth controlled robot. A 3 DoF servo controlled arm is made with a gripper end effector for pick and place mechanism. 2 Arduinos are used for controlling arm and motion independently. A single channel relay is used for optimizing power consumption by switching off the arm when not in use.
+*&lt;em&gt;This project was made for AXIS(Technical Event at NIT-Nagpur), 2017 and was awarded a prize for innovative design.&lt;/em&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Sign Language Translator</title>
       <link>https://khush3.github.io/project/sign-language/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/sign-language/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Harmonic Motion Analyzer</title>
+      <link>https://khush3.github.io/project/harmonic-motion-analyzer/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/project/harmonic-motion-analyzer/</guid>
+      <description>&lt;p&gt;A video is selected to analyze its motion. Proper color threshold is set to identify the object and its centroid location is obtained. Every coordinate of the centroid is stored and later its extremum are calculated. All values are stored then in a csv file. Using elementary mathematics and retrieved data,an equation of motion is calculated.
+*&lt;em&gt;this project was made for TechnoSeason, 2017 and was awarded first prize.&lt;/em&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
