@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Reinforcement Learning | Khush: Roboticist</title>
-    <link>https://khush3.github.io/tags/reinforcement-learning/</link>
-      <atom:link href="https://khush3.github.io/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
-    <description>Reinforcement Learning</description>
+    <title>Deep Learning | Khush: Roboticist</title>
+    <link>https://khush3.github.io/tags/deep-learning/</link>
+      <atom:link href="https://khush3.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Deep Learning</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Reinforcement Learning</title>
-      <link>https://khush3.github.io/tags/reinforcement-learning/</link>
+      <title>Deep Learning</title>
+      <link>https://khush3.github.io/tags/deep-learning/</link>
     </image>
     
     <item>

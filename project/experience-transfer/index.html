@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="In my setting, the teacher-agent collects higher and lower dimensional observations to train a student-agent who only receives higher dimensional observations.">
+  <meta name="description" content="Framework to teach higher-dim student using experiences of a teacher.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://khush3.github.io/project/experience-transfer/">
@@ -230,7 +230,7 @@
   <meta property="og:site_name" content="Khush: Roboticist">
   <meta property="og:url" content="https://khush3.github.io/project/experience-transfer/">
   <meta property="og:title" content="Experience Transfer | Khush: Roboticist">
-  <meta property="og:description" content="In my setting, the teacher-agent collects higher and lower dimensional observations to train a student-agent who only receives higher dimensional observations."><meta property="og:image" content="https://khush3.github.io/project/experience-transfer/featured.jpg">
+  <meta property="og:description" content="Framework to teach higher-dim student using experiences of a teacher."><meta property="og:image" content="https://khush3.github.io/project/experience-transfer/featured.jpg">
   <meta property="twitter:image" content="https://khush3.github.io/project/experience-transfer/featured.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -284,7 +284,7 @@
       "url": "img/https://khush3.github.io/"
     }
   },
-  "description": "In my setting, the teacher-agent collects higher and lower dimensional observations to train a student-agent who only receives higher dimensional observations."
+  "description": "Framework to teach higher-dim student using experiences of a teacher."
 }
 </script>
 
@@ -629,8 +629,6 @@
 
 <div class="btn-links mb-3">
   
-  <a class="btn btn-outline-primary my-1" href="https://github.com/khush3/experience_transfer" target="_blank" rel="noopener">Go to Project Site</a>
-  
   
 
 
@@ -658,6 +656,22 @@
 
 
 
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/khush3/experience_transfer" target="_blank" rel="noopener">
+    <i class="fab fa-github mr-1"></i>
+    Complete Project
+  </a>
 
 
 </div>
@@ -669,7 +683,7 @@
 <div class="article-header article-container featured-image-wrapper mt-4 mb-4" style="max-width: 541px; max-height: 244px;">
   <div style="position: relative">
     <img src="/project/experience-transfer/featured.jpg" alt="" class="featured-image">
-    <span class="article-header-caption">General RL Setup</span>
+    <span class="article-header-caption">Picture from Reinforcement Learning - An Introduction</span>
   </div>
 </div>
 
@@ -678,7 +692,11 @@
   <div class="article-container">
 
     <div class="article-style">
-      
+      <p>•Aimed to transfer the experience of a teacher agent, receiving higher and lower dimensional observations to train student-agent, receiving only higher dimensional observations.</p>
+<h2 id="abstract">Abstract</h2>
+<p>Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Imitation learning can be used in such cases to avoid random policy initializations. However, to use imitation learning, one needs to generate experience from an (expert) agent. A human (expert) agent generating these experience, needs to follow a set of ground rules to stick to the IID-data assumption needed to ensure stability in training.<br>
+One method to avoid the cumbersome process of setting the ground rules, could be to use an (expert) agent, trained on lower dimensional observations. Training on lower dimensional data is known to be computationally efficient and less time consuming<!--[Citation needed] -->. The experience of this trained agent can hence be used to train the higher dimensional agent.</p>
+
     </div>
 
     
@@ -690,6 +708,8 @@
 <div class="article-tags">
   
   <a class="badge badge-light" href="/tags/reinforcement-learning/">Reinforcement Learning</a>
+  
+  <a class="badge badge-light" href="/tags/deep-learning/">Deep Learning</a>
   
 </div>
 
@@ -890,7 +910,7 @@
       
     
     <li>
-      <a href="https://www.dropbox.com/s/86bhx4lo7fo8cjl/resume.pdf?dl=0" target="_blank" rel="noopener">
+      <a href="https://drive.google.com/file/d/1Z1AR5Q99KAuDyllc3-KjzTqkaJKqUlHy/view?usp=sharing" target="_blank" rel="noopener">
         <i class="ai ai-cv"></i>
       </a>
     </li>
@@ -916,9 +936,7 @@
       
       <li><a href="/project/representation_rl/">Representation Learning to bost Deep Q-Learning</a></li>
       
-      <li><a href="/project/rl-implementation/">Implementation of Reinforcement Learning algorithms</a></li>
-      
-      <li><a href="/project/terra-former-robot/">Terra-former Robot</a></li>
+      <li><a href="/project/rl-implementation/">Basics of Reinforcement Learning</a></li>
       
     </ul>
   </div>

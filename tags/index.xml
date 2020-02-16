@@ -13,6 +13,14 @@
     </image>
     
     <item>
+      <title>Deep Learning</title>
+      <link>https://khush3.github.io/tags/deep-learning/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/tags/deep-learning/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Reinforcement Learning</title>
       <link>https://khush3.github.io/tags/reinforcement-learning/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
@@ -21,9 +29,17 @@
     </item>
     
     <item>
+      <title>Electronics</title>
+      <link>https://khush3.github.io/tags/electronics/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/tags/electronics/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Embedded Systems</title>
       <link>https://khush3.github.io/tags/embedded-systems/</link>
-      <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/tags/embedded-systems/</guid>
       <description></description>
     </item>
@@ -31,16 +47,24 @@
     <item>
       <title>Mobile Robotics</title>
       <link>https://khush3.github.io/tags/mobile-robotics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/tags/mobile-robotics/</guid>
       <description></description>
     </item>
     
     <item>
-      <title>Robotics</title>
-      <link>https://khush3.github.io/tags/robotics/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/tags/robotics/</guid>
+      <title>Computer Vision</title>
+      <link>https://khush3.github.io/tags/computer-vision/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/tags/computer-vision/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Image Processing</title>
+      <link>https://khush3.github.io/tags/image-processing/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/tags/image-processing/</guid>
       <description></description>
     </item>
     

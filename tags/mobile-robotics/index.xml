@@ -5,7 +5,7 @@
     <link>https://khush3.github.io/tags/mobile-robotics/</link>
       <atom:link href="https://khush3.github.io/tags/mobile-robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>Mobile Robotics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Mobile Robotics</title>
@@ -13,21 +13,32 @@
     </image>
     
     <item>
-      <title>Harmonic Motion Analyzer</title>
-      <link>https://khush3.github.io/project/harmonic-motion-analyzer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/project/harmonic-motion-analyzer/</guid>
-      <description>&lt;p&gt;A video is selected to analyze its motion. Proper color threshold is set to identify the object and its centroid location is obtained. Every coordinate of the centroid is stored and later its extremum are calculated. All values are stored then in a csv file. Using elementary mathematics and retrieved data,an equation of motion is calculated.
-*&lt;em&gt;this project was made for TechnoSeason, 2017 and was awarded first prize.&lt;/em&gt;&lt;/p&gt;
+      <title>Terra-former Robot</title>
+      <link>https://khush3.github.io/project/terra-former-robot/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/project/terra-former-robot/</guid>
+      <description>&lt;p&gt;•Aimed at developing a wirelessly controlled robot capable of moving objects.&lt;br&gt;
+•Developed a 3 DoF servo controlled arm with a gripper end effector for Pick-and-Place mechanism.
+•Used 2 Arduinos for controlling arm and motion independently.&lt;br&gt;
+•Used a single channel relay for optimizing power consumption by switching off the arm when not in use.&lt;br&gt;
+&lt;em&gt;This project was presented for AXIS(Technical Event at NIT-Nagpur), 2017 and was awarded a prize for innovative design.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Robots are widely used in manufacturing, assembly and packing, transport, earth and space exploration, surgery, weaponry, laboratory research, and mass production of consumer and industrial goods. A Robot equipped with a Pick-and-Place mechanism can be used for numerous applications.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Pose estimation of a differential drive robot</title>
+      <title>Localization of a differential drive robot</title>
       <link>https://khush3.github.io/project/pose_estim/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/pose_estim/</guid>
-      <description></description>
+      <description>&lt;p&gt;•Designed algorithm for pose (rectangular coordinates, angle) estimation of a
+robot in a two dimensional plane using odometry, and developed the
+hardware for robot.&lt;br&gt;
+•Used ROS framework to establish communication between the nodes.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Robot localization is the process of determining where a mobile robot is located with respect to its environment. Localization is one of the most fundamental competencies required by an autonomous robot as the knowledge of the robot&amp;rsquo;s own location is an essential precursor to making decisions about future actions. In the summer of my freshman year, I worked on developing an algorithm to localize a differential-drive robot using odometry from scratch. Besides this, I also developed the hardware for the robot.&lt;/p&gt;
+</description>
     </item>
     
   </channel>

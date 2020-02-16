@@ -43,6 +43,11 @@
   </url>
   
   <url>
+    <loc>https://khush3.github.io/tags/deep-learning/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://khush3.github.io/project/experience-transfer/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -113,18 +118,48 @@
   </url>
   
   <url>
-    <loc>https://khush3.github.io/project/terra-former-robot/</loc>
+    <loc>https://khush3.github.io/tags/electronics/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://khush3.github.io/tags/embedded-systems/</loc>
-    <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khush3.github.io/tags/mobile-robotics/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khush3.github.io/project/terra-former-robot/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://khush3.github.io/project/sign-language/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khush3.github.io/tags/computer-vision/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khush3.github.io/project/harmonic-motion-analyzer/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khush3.github.io/tags/image-processing/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khush3.github.io/project/pose_estim/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -136,27 +171,11 @@
   </url>
   
   <url>
-    <loc>https://khush3.github.io/project/harmonic-motion-analyzer/</loc>
-  </url>
-  
-  <url>
-    <loc>https://khush3.github.io/tags/mobile-robotics/</loc>
-  </url>
-  
-  <url>
-    <loc>https://khush3.github.io/project/pose_estim/</loc>
-  </url>
-  
-  <url>
     <loc>https://khush3.github.io/post/</loc>
   </url>
   
   <url>
     <loc>https://khush3.github.io/talk/</loc>
-  </url>
-  
-  <url>
-    <loc>https://khush3.github.io/tags/robotics/</loc>
   </url>
   
 </urlset>

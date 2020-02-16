@@ -25,7 +25,11 @@
       <link>https://khush3.github.io/project/experience-transfer/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/experience-transfer/</guid>
-      <description></description>
+      <description>&lt;p&gt;•Aimed to transfer the experience of a teacher agent, receiving higher and lower dimensional observations to train student-agent, receiving only higher dimensional observations.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Imitation learning can be used in such cases to avoid random policy initializations. However, to use imitation learning, one needs to generate experience from an (expert) agent. A human (expert) agent generating these experience, needs to follow a set of ground rules to stick to the IID-data assumption needed to ensure stability in training.&lt;br&gt;
+One method to avoid the cumbersome process of setting the ground rules, could be to use an (expert) agent, trained on lower dimensional observations. Training on lower dimensional data is known to be computationally efficient and less time consuming&lt;!--[Citation needed] --&gt;. The experience of this trained agent can hence be used to train the higher dimensional agent.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -33,7 +37,10 @@
       <link>https://khush3.github.io/project/representation_rl/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/representation_rl/</guid>
-      <description></description>
+      <description>&lt;p&gt;•Aimed at using representation learning to boost the training speed of Deep Q-Learning Algorithm.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Representation learning can be used in such cases to leverage lower dimensional trained agents. The two-stage agent can be further be fine-tuned to adapt better.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -45,11 +52,18 @@
     </item>
     
     <item>
-      <title>Implementation of Reinforcement Learning algorithms</title>
+      <title>Basics of Reinforcement Learning</title>
       <link>https://khush3.github.io/project/rl-implementation/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/rl-implementation/</guid>
-      <description></description>
+      <description>&lt;p&gt;•Implementated:&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;DQN&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Vanilla Policy Gradient&lt;/li&gt;
+&lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;PPO&lt;/li&gt;
+&lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;DDPG&lt;/li&gt;
+&lt;/ul&gt;
+</description>
     </item>
     
     <item>
@@ -57,8 +71,13 @@
       <link>https://khush3.github.io/project/terra-former-robot/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/terra-former-robot/</guid>
-      <description>&lt;p&gt;A robot for moving objects. It is differential drive based Bluetooth controlled robot. A 3 DoF servo controlled arm is made with a gripper end effector for pick and place mechanism. 2 Arduinos are used for controlling arm and motion independently. A single channel relay is used for optimizing power consumption by switching off the arm when not in use.
-*&lt;em&gt;This project was made for AXIS(Technical Event at NIT-Nagpur), 2017 and was awarded a prize for innovative design.&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;p&gt;•Aimed at developing a wirelessly controlled robot capable of moving objects.&lt;br&gt;
+•Developed a 3 DoF servo controlled arm with a gripper end effector for Pick-and-Place mechanism.
+•Used 2 Arduinos for controlling arm and motion independently.&lt;br&gt;
+•Used a single channel relay for optimizing power consumption by switching off the arm when not in use.&lt;br&gt;
+&lt;em&gt;This project was presented for AXIS(Technical Event at NIT-Nagpur), 2017 and was awarded a prize for innovative design.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Robots are widely used in manufacturing, assembly and packing, transport, earth and space exploration, surgery, weaponry, laboratory research, and mass production of consumer and industrial goods. A Robot equipped with a Pick-and-Place mechanism can be used for numerous applications.&lt;/p&gt;
 </description>
     </item>
     
@@ -67,25 +86,38 @@
       <link>https://khush3.github.io/project/sign-language/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/sign-language/</guid>
-      <description></description>
+      <description>&lt;p&gt;•Aimed at providing aid for speech-impaired people.&lt;br&gt;
+•Fabricated an easy-to-use, low-cost, and lightweight device in the form of a glove.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Description Sign languages are languages that use the visual-manual modality to convey meaning. Sign languages are expressed through manual articulations in combination with non-manual elements. Sign languages are full-fledged natural languages with their own grammar and lexicon. Unlike acoustically conveyed sound patterns, sign language uses body language and manual communication to fluently convey the thoughts of a person. It is achieved by simultaneously combining hand shapes, orientation and movement of the hands, arms or body, and facial expressions. This way of communication is however limited to a group of people, which introduces a communication barrier. The need for a commutator is essential to tackle this problem. A possible approach is using computer vision and machine learning techniques. This approach can, however, be costly and needs a bulky hardware setup or special application installation. Also, it is subject to lighting condition and perspective problems. We devised a cost-effective and easy-to-use glove that can overcome these limitations and act as a commutator flawlessly.&lt;/p&gt;
+</description>
     </item>
     
     <item>
       <title>Harmonic Motion Analyzer</title>
       <link>https://khush3.github.io/project/harmonic-motion-analyzer/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/harmonic-motion-analyzer/</guid>
-      <description>&lt;p&gt;A video is selected to analyze its motion. Proper color threshold is set to identify the object and its centroid location is obtained. Every coordinate of the centroid is stored and later its extremum are calculated. All values are stored then in a csv file. Using elementary mathematics and retrieved data,an equation of motion is calculated.
-*&lt;em&gt;this project was made for TechnoSeason, 2017 and was awarded first prize.&lt;/em&gt;&lt;/p&gt;
+      <description>&lt;p&gt;•Aimed at estimation equation of motion of a target-object video is selected to analyze its motion.&lt;br&gt;
+•Aimed at retrieving data associated with the motion of tareget-object using  elementary mathematics.&lt;br&gt;
+&lt;em&gt;This project was made for TechnoSeason, 2017 and was awarded first prize.&lt;/em&gt;&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Simple harmonic motion can serve as a mathematical model for a variety of motions, such as the oscillation of a spring. With the aim of learning computer vision and MATLAB, I worked on analyzing the motion of a target-object undergoing a damped harmonic motion. The target-object was separated from the background using color thresholding and estimated as a point object. Coordinates of this point were recorded and used to estimate the parameters associated with the mathematical model of the system like maximum displacement, mean position, the velocity at different time instants. A mathematical model was estimated by fitting a curve to the recorded data using MATLAB Curve Fitting Toolbox.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Pose estimation of a differential drive robot</title>
+      <title>Localization of a differential drive robot</title>
       <link>https://khush3.github.io/project/pose_estim/</link>
-      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/pose_estim/</guid>
-      <description></description>
+      <description>&lt;p&gt;•Designed algorithm for pose (rectangular coordinates, angle) estimation of a
+robot in a two dimensional plane using odometry, and developed the
+hardware for robot.&lt;br&gt;
+•Used ROS framework to establish communication between the nodes.&lt;/p&gt;
+&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;p&gt;Robot localization is the process of determining where a mobile robot is located with respect to its environment. Localization is one of the most fundamental competencies required by an autonomous robot as the knowledge of the robot&amp;rsquo;s own location is an essential precursor to making decisions about future actions. In the summer of my freshman year, I worked on developing an algorithm to localize a differential-drive robot using odometry from scratch. Besides this, I also developed the hardware for the robot.&lt;/p&gt;
+</description>
     </item>
     
   </channel>
