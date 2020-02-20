@@ -17,7 +17,12 @@
       <link>https://khush3.github.io/publication/person_follower/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0530</pubDate>
       <guid>https://khush3.github.io/publication/person_follower/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/idROzgggHzMfqJTNPy/giphy.gif&#34; alt=&#34;&#34;&gt;
+
+&lt;a href=&#34;https://www.youtube.com/watch?v=XnrbU1050ls&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the complete demonstration.&lt;/a&gt;
+&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -26,7 +31,7 @@
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/experience-transfer/</guid>
       <description>&lt;p&gt;•Aimed to transfer the experience of a teacher agent, receiving higher and lower dimensional observations to train student-agent, receiving only higher dimensional observations.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Imitation learning can be used in such cases to avoid random policy initializations. However, to use imitation learning, one needs to generate experience from an (expert) agent. A human (expert) agent generating these experience, needs to follow a set of ground rules to stick to the IID-data assumption needed to ensure stability in training.&lt;br&gt;
 One method to avoid the cumbersome process of setting the ground rules, could be to use an (expert) agent, trained on lower dimensional observations. Training on lower dimensional data is known to be computationally efficient and less time consuming&lt;!--[Citation needed] --&gt;. The experience of this trained agent can hence be used to train the higher dimensional agent.&lt;/p&gt;
 </description>
@@ -38,7 +43,7 @@ One method to avoid the cumbersome process of setting the ground rules, could be
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/representation_rl/</guid>
       <description>&lt;p&gt;•Aimed at using representation learning to boost the training speed of Deep Q-Learning Algorithm.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Representation learning can be used in such cases to leverage lower dimensional trained agents. The two-stage agent can be further be fine-tuned to adapt better.&lt;/p&gt;
 </description>
     </item>
@@ -48,7 +53,12 @@ One method to avoid the cumbersome process of setting the ground rules, could be
       <link>https://khush3.github.io/publication/stair_climbing/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0530</pubDate>
       <guid>https://khush3.github.io/publication/stair_climbing/</guid>
-      <description></description>
+      <description>&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;h4 id=&#34;key-frames-as-seen-through-robots-eyes&#34;&gt;Key frames as seen through robot&amp;rsquo;s eyes&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/34411770/74923820-77ca5e00-53f7-11ea-98e8-fc5c1d169025.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;h4 id=&#34;predicted-actions&#34;&gt;Predicted Actions&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/34411770/74923881-89ac0100-53f7-11ea-9f8b-030d230c99db.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -56,15 +66,15 @@ One method to avoid the cumbersome process of setting the ground rules, could be
       <link>https://khush3.github.io/project/rl-implementation/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/rl-implementation/</guid>
-      <description>&lt;p&gt;•Implementated:&lt;/p&gt;
+      <description>&lt;h3 id=&#34;implementated&#34;&gt;Implementated:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;DQN&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Vanilla Policy Gradient&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;PPO&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;DDPG&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;h5 id=&#34;value-and-policy-iteration&#34;&gt;Value and Policy Iteration&lt;/h5&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;h4 id=&#34;value-and-policy-iteration&#34;&gt;Value and Policy Iteration&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/L05KQuhnujAW3QyIkG/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -87,9 +97,9 @@ One method to avoid the cumbersome process of setting the ground rules, could be
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h5 id=&#34;q-learning&#34;&gt;Q-Learning&lt;/h5&gt;
+&lt;h4 id=&#34;q-learning&#34;&gt;Q-Learning&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/KyAYvfmKlabE1zC820/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h5 id=&#34;deep-q-learning&#34;&gt;Deep Q-Learning&lt;/h5&gt;
+&lt;h4 id=&#34;deep-q-learning&#34;&gt;Deep Q-Learning&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/PlsqPhHU7KnB2AdmYa/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
     </item>
@@ -104,8 +114,8 @@ One method to avoid the cumbersome process of setting the ground rules, could be
 •Used 2 Arduinos for controlling arm and motion independently.&lt;br&gt;
 •Used a single channel relay for optimizing power consumption by switching off the arm when not in use.&lt;br&gt;
 &lt;em&gt;This project was presented for AXIS(Technical Event at NIT-Nagpur), 2017 and was awarded a prize for innovative design.&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Robots are widely used in manufacturing, assembly and packing, transport, earth and space exploration, surgery, weaponry, laboratory research, and mass production of consumer and industrial goods. A Robot equipped with a Pick-and-Place mechanism can be used for numerous applications.&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Robots are widely used in manufacturing, assembly and packing, transport, earth and space exploration, surgery, weaponry, laboratory research, and mass production of consumer and industrial goods. A Robot equipped with a Pick-and-Place mechanism can be used for numerous applications. The gripper mechanism was created using two spur gears with one fitted to a servo and the other to a dead-axle. Four additional servos were used to create the robotic maipulator arm.&lt;/p&gt;
 </description>
     </item>
     
@@ -116,8 +126,8 @@ One method to avoid the cumbersome process of setting the ground rules, could be
       <guid>https://khush3.github.io/project/sign-language/</guid>
       <description>&lt;p&gt;•Aimed at providing aid for speech-impaired people.&lt;br&gt;
 •Fabricated an easy-to-use, low-cost, and lightweight device in the form of a glove.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Description Sign languages are languages that use the visual-manual modality to convey meaning. Sign languages are expressed through manual articulations in combination with non-manual elements. Sign languages are full-fledged natural languages with their own grammar and lexicon. Unlike acoustically conveyed sound patterns, sign language uses body language and manual communication to fluently convey the thoughts of a person. It is achieved by simultaneously combining hand shapes, orientation and movement of the hands, arms or body, and facial expressions. This way of communication is however limited to a group of people, which introduces a communication barrier. The need for a commutator is essential to tackle this problem. A possible approach is using computer vision and machine learning techniques. This approach can, however, be costly and needs a bulky hardware setup or special application installation. Also, it is subject to lighting condition and perspective problems. We devised a cost-effective and easy-to-use glove that can overcome these limitations and act as a commutator flawlessly.&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Description Sign languages are languages that use the visual-manual modality to convey meaning. Sign languages are expressed through manual articulations in combination with non-manual elements. Sign languages are full-fledged natural languages with their own grammar and lexicon. Unlike acoustically conveyed sound patterns, sign language uses body language and manual communication to fluently convey the thoughts of a person. It is achieved by simultaneously combining hand shapes, orientation and movement of the hands, arms or body, and facial expressions. This way of communication is however limited to a group of people, which introduces a communication barrier. The need for a interpreter is essential to tackle this problem. A possible approach is using computer vision and machine learning techniques. This approach can, however, be costly and needs a bulky hardware setup or special application installation. Also, it is subject to lighting condition and perspective problems. We devised a cost-effective and easy-to-use glove that can overcome these limitations and act as a interpreter flawlessly.&lt;/p&gt;
 </description>
     </item>
     
@@ -129,7 +139,7 @@ One method to avoid the cumbersome process of setting the ground rules, could be
       <description>&lt;p&gt;•Aimed at estimation equation of motion of a target-object video is selected to analyze its motion.&lt;br&gt;
 •Aimed at retrieving data associated with the motion of tareget-object using  elementary mathematics.&lt;br&gt;
 &lt;em&gt;This project was made for TechnoSeason, 2017 and was awarded first prize.&lt;/em&gt;&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Simple harmonic motion can serve as a mathematical model for a variety of motions, such as the oscillation of a spring. With the aim of learning computer vision and MATLAB, I worked on analyzing the motion of a target-object undergoing a damped harmonic motion. The target-object was separated from the background using color thresholding and estimated as a point object. Coordinates of this point were recorded and used to estimate the parameters associated with the mathematical model of the system like maximum displacement, mean position, the velocity at different time instants. A mathematical model was estimated by fitting a curve to the recorded data using MATLAB Curve Fitting Toolbox.&lt;/p&gt;
 </description>
     </item>
@@ -142,9 +152,42 @@ One method to avoid the cumbersome process of setting the ground rules, could be
       <description>&lt;p&gt;•Designed algorithm for pose (rectangular coordinates, angle) estimation of a
 robot in a two dimensional plane using odometry, and developed the
 hardware for robot.&lt;br&gt;
-•Used ROS framework to establish communication between the nodes.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
-&lt;p&gt;Robot localization is the process of determining where a mobile robot is located with respect to its environment. Localization is one of the most fundamental competencies required by an autonomous robot as the knowledge of the robot&amp;rsquo;s own location is an essential precursor to making decisions about future actions. In the summer of my freshman year, I worked on developing an algorithm to localize a differential-drive robot using odometry from scratch. Besides this, I also developed the hardware for the robot.&lt;/p&gt;
+•Used ROS framework to establish communication between the nodes.&lt;br&gt;
+•Performed UMBmark test to calibrate robot base and wheel diameter constants .&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Robot localization is the process of determining where a mobile robot is located with respect to its environment. Localization is one of the most fundamental competencies required by an autonomous robot as the knowledge of the robot&amp;rsquo;s own location is an essential precursor to making decisions about future actions. In the summer of my freshman year, I worked on developing an algorithm to localize a differential-drive robot using odometry from scratch. I performed UMBmark test to calibrate robot base and wheel diameter constants. Besides this, I also developed the hardware for the robot.&lt;/p&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/MdSNDislPQsoyDL4Is/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+&lt;table&gt;
+&lt;thead&gt;
+&lt;tr&gt;
+&lt;th align=&#34;center&#34;&gt;FINAL RESULTS&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;MEASURED DATA&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;REAL-TIME DATA&lt;/th&gt;
+&lt;th align=&#34;center&#34;&gt;ACCURACY&lt;/th&gt;
+&lt;/tr&gt;
+&lt;/thead&gt;
+&lt;tbody&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;ABSCISSA&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;25.4 cm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;25.2 cm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;99.3%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;ORDINATE&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;8.3 cm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;8.3 cm&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;100%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;tr&gt;
+&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;ANGLE&lt;/strong&gt;&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;357.1 degree&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;356 degree&lt;/td&gt;
+&lt;td align=&#34;center&#34;&gt;99.7%&lt;/td&gt;
+&lt;/tr&gt;
+&lt;/tbody&gt;
+&lt;/table&gt;
 </description>
     </item>
     

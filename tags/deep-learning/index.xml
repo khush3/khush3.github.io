@@ -18,7 +18,7 @@
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/experience-transfer/</guid>
       <description>&lt;p&gt;•Aimed to transfer the experience of a teacher agent, receiving higher and lower dimensional observations to train student-agent, receiving only higher dimensional observations.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Imitation learning can be used in such cases to avoid random policy initializations. However, to use imitation learning, one needs to generate experience from an (expert) agent. A human (expert) agent generating these experience, needs to follow a set of ground rules to stick to the IID-data assumption needed to ensure stability in training.&lt;br&gt;
 One method to avoid the cumbersome process of setting the ground rules, could be to use an (expert) agent, trained on lower dimensional observations. Training on lower dimensional data is known to be computationally efficient and less time consuming&lt;!--[Citation needed] --&gt;. The experience of this trained agent can hence be used to train the higher dimensional agent.&lt;/p&gt;
 </description>
@@ -30,7 +30,7 @@ One method to avoid the cumbersome process of setting the ground rules, could be
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/representation_rl/</guid>
       <description>&lt;p&gt;•Aimed at using representation learning to boost the training speed of Deep Q-Learning Algorithm.&lt;/p&gt;
-&lt;h2 id=&#34;abstract&#34;&gt;Abstract&lt;/h2&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Representation learning can be used in such cases to leverage lower dimensional trained agents. The two-stage agent can be further be fine-tuned to adapt better.&lt;/p&gt;
 </description>
     </item>
@@ -40,15 +40,15 @@ One method to avoid the cumbersome process of setting the ground rules, could be
       <link>https://khush3.github.io/project/rl-implementation/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/rl-implementation/</guid>
-      <description>&lt;p&gt;•Implementated:&lt;/p&gt;
+      <description>&lt;h3 id=&#34;implementated&#34;&gt;Implementated:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;DQN&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Vanilla Policy Gradient&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;PPO&lt;/li&gt;
 &lt;li&gt;&lt;input disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;DDPG&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h2 id=&#34;results&#34;&gt;Results&lt;/h2&gt;
-&lt;h5 id=&#34;value-and-policy-iteration&#34;&gt;Value and Policy Iteration&lt;/h5&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;h4 id=&#34;value-and-policy-iteration&#34;&gt;Value and Policy Iteration&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/L05KQuhnujAW3QyIkG/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
@@ -71,9 +71,9 @@ One method to avoid the cumbersome process of setting the ground rules, could be
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;h5 id=&#34;q-learning&#34;&gt;Q-Learning&lt;/h5&gt;
+&lt;h4 id=&#34;q-learning&#34;&gt;Q-Learning&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/KyAYvfmKlabE1zC820/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h5 id=&#34;deep-q-learning&#34;&gt;Deep Q-Learning&lt;/h5&gt;
+&lt;h4 id=&#34;deep-q-learning&#34;&gt;Deep Q-Learning&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/PlsqPhHU7KnB2AdmYa/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
     </item>
