@@ -5,7 +5,7 @@
     <link>https://khush3.github.io/tags/mobile-robotics/</link>
       <atom:link href="https://khush3.github.io/tags/mobile-robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>Mobile Robotics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Mobile Robotics</title>
@@ -18,12 +18,12 @@
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/terra-former-robot/</guid>
       <description>&lt;p&gt;•Aimed at developing a wirelessly controlled robot capable of moving objects.&lt;br&gt;
-•Developed a 3 DoF servo controlled arm with a gripper end effector for Pick-and-Place mechanism.
+•Developed a 3 DoF servo controlled arm with a gripper end effector for Pick-and-Place mechanism.&lt;br&gt;
 •Used 2 Arduinos for controlling arm and motion independently.&lt;br&gt;
 •Used a single channel relay for optimizing power consumption by switching off the arm when not in use.&lt;br&gt;
 &lt;em&gt;This project was presented for AXIS(Technical Event at NIT-Nagpur), 2017 and was awarded a prize for innovative design.&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
-&lt;p&gt;Robots are widely used in manufacturing, assembly and packing, transport, earth and space exploration, surgery, weaponry, laboratory research, and mass production of consumer and industrial goods. A Robot equipped with a Pick-and-Place mechanism can be used for numerous applications. The gripper mechanism was created using two spur gears with one fitted to a servo and the other to a dead-axle. Four additional servos were used to create the robotic maipulator arm.&lt;/p&gt;
+&lt;p&gt;Robots are widely used in manufacturing, assembly and packing, transport, earth and space exploration, surgery, weaponry, laboratory research, and mass production of consumer and industrial goods. A Robot equipped with a Pick-and-Place mechanism can be used for numerous applications. The gripper mechanism was created using two spur gears with one fitted to a servo and the other to a dead-axle. Four additional servos were used to create the robotic manipulator arm.&lt;/p&gt;
 </description>
     </item>
     

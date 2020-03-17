@@ -5,7 +5,7 @@
     <link>https://khush3.github.io/tags/reinforcement-learning/</link>
       <atom:link href="https://khush3.github.io/tags/reinforcement-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Reinforcement Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2020</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Reinforcement Learning</title>
@@ -19,8 +19,8 @@
       <guid>https://khush3.github.io/project/experience-transfer/</guid>
       <description>&lt;p&gt;•Aimed to transfer the experience of a teacher agent, receiving higher and lower dimensional observations to train student-agent, receiving only higher dimensional observations.&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
-&lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Imitation learning can be used in such cases to avoid random policy initializations. However, to use imitation learning, one needs to generate experience from an (expert) agent. A human (expert) agent generating these experience, needs to follow a set of ground rules to stick to the IID-data assumption needed to ensure stability in training.&lt;br&gt;
-One method to avoid the cumbersome process of setting the ground rules, could be to use an (expert) agent, trained on lower dimensional observations. Training on lower dimensional data is known to be computationally efficient and less time consuming&lt;!--[Citation needed] --&gt;. The experience of this trained agent can hence be used to train the higher dimensional agent.&lt;/p&gt;
+&lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Imitation Learning can be used in such cases to avoid random policy initializations. However, to use Imitation Learning, one needs to generate experience from an (expert) agent. A human (expert) agent generating these experience, needs to follow a set of ground rules to stick to the IID-data assumption needed to ensure stability in training.&lt;br&gt;
+One method to avoid the cumbersome process of setting the ground rules could be to use an (expert) agent, trained on lower dimensional observations. Training on lower dimensional data is known to be computationally efficient and less time consuming&lt;!--[Citation needed] --&gt;. The experience of this trained agent can hence be used to train the higher dimensional agent.&lt;/p&gt;
 </description>
     </item>
     
@@ -40,7 +40,11 @@ One method to avoid the cumbersome process of setting the ground rules, could be
       <link>https://khush3.github.io/project/rl-implementation/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/rl-implementation/</guid>
-      <description>&lt;h3 id=&#34;implementated&#34;&gt;Implementated:&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;To broaden my perspective on Machine Learning, I took up Reinforcement Learning courses by David Silver, Stanford CS234. To understand the nuances in the field, I implemented basic algorithms. The inspiration for the same was also drawn through 
+&lt;a href=&#34;https://khush3.github.io/publication/stair_climbing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a project&lt;/a&gt;
+ where the idea of using Imitation Learning to overcome several limitations, struck me.&lt;/p&gt;
+&lt;h3 id=&#34;implementated&#34;&gt;Implementated:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;DQN&lt;/li&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt;Vanilla Policy Gradient&lt;/li&gt;
