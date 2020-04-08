@@ -38,7 +38,7 @@ One method to avoid the cumbersome process of setting the ground rules could be 
     </item>
     
     <item>
-      <title>Representation Learning to bost Deep Q-Learning</title>
+      <title>Representation Learning to boost Deep Q-Learning</title>
       <link>https://khush3.github.io/project/representation_rl/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/representation_rl/</guid>
@@ -58,6 +58,15 @@ One method to avoid the cumbersome process of setting the ground rules could be 
 &lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/34411770/74923820-77ca5e00-53f7-11ea-98e8-fc5c1d169025.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;h4 id=&#34;predicted-actions&#34;&gt;Predicted Actions&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/34411770/74923881-89ac0100-53f7-11ea-9f8b-030d230c99db.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Basics of Reinforcement Learning</title>
+      <link>https://khush3.github.io/mentorship_projects/rl-implementation/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/mentorship_projects/rl-implementation/</guid>
+      <description>&lt;hr&gt;
 </description>
     </item>
     
@@ -106,6 +115,14 @@ One method to avoid the cumbersome process of setting the ground rules could be 
 &lt;h4 id=&#34;deep-q-learning&#34;&gt;Deep Q-Learning&lt;/h4&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/PlsqPhHU7KnB2AdmYa/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Real Time Digit Classifier</title>
+      <link>https://khush3.github.io/mentorship_projects/digit-classifiers/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/mentorship_projects/digit-classifiers/</guid>
+      <description></description>
     </item>
     
     <item>
