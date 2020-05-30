@@ -5,9 +5,9 @@
     <link>https://khush3.github.io/tags/deep-learning/</link>
       <atom:link href="https://khush3.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Deep Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Khush Agrawal</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://khush3.github.io/img/roboticist.jpg</url>
       <title>Deep Learning</title>
       <link>https://khush3.github.io/tags/deep-learning/</link>
     </image>
@@ -25,18 +25,18 @@ One method to avoid the cumbersome process of setting the ground rules could be 
     </item>
     
     <item>
-      <title>Representation Learning to boost Deep Q-Learning</title>
+      <title>RL on Latent Embeddings</title>
       <link>https://khush3.github.io/project/representation_rl/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/representation_rl/</guid>
-      <description>&lt;p&gt;•Aimed at using representation learning to boost the training speed of Deep Q-Learning Algorithm.&lt;/p&gt;
+      <description>&lt;p&gt;•Aimed at training Deep Q-Learning based agents on learned latent embeddings instead of higher dimensional image observations.&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
-&lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Representation learning can be used in such cases to leverage lower dimensional trained agents. The two-stage agent can be further be fine-tuned to adapt better.&lt;/p&gt;
+&lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Representation learning can be used in such cases to leverage lower dimensional trained agents. The two-stage agent can be further be fine-tuned to adapt better using end-to-end training. This approach is also more robust to variations in environment due to the fact that agents are trained on learnt representations instead of directly training on the environment observations.&lt;/p&gt;
 </description>
     </item>
     
     <item>
-      <title>Basics of Reinforcement Learning</title>
+      <title>Implementation of RL Algorithms</title>
       <link>https://khush3.github.io/project/rl-implementation/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/rl-implementation/</guid>

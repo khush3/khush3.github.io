@@ -5,9 +5,9 @@
     <link>https://khush3.github.io/authors/</link>
       <atom:link href="https://khush3.github.io/authors/index.xml" rel="self" type="application/rss+xml" />
     <description>Authors</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Khush Agrawal</copyright><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0530</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://khush3.github.io/img/roboticist.jpg</url>
       <title>Authors</title>
       <link>https://khush3.github.io/authors/</link>
     </image>
@@ -87,9 +87,6 @@
  in 
 &lt;a href=&#34;http://www.ivlabs.in/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;IvLabs&lt;/a&gt;
  and took various challenges that involved the application of Deep Learning and Reinforcement Learning.&lt;/p&gt;
-&lt;p&gt;I&amp;rsquo;m always up to something! 
-&lt;a href=&#34;https://khush3.github.io/project/experience-transfer/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Here&amp;rsquo;s&lt;/a&gt;
- what&amp;rsquo;s keeping me occupied these days.&lt;/p&gt;
 &lt;p&gt;Besides research, I enjoy listening to music, playing guitar and spending time in nature.&lt;/p&gt;
 </description>
     </item>

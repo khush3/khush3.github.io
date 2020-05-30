@@ -5,9 +5,9 @@
     <link>https://khush3.github.io/</link>
       <atom:link href="https://khush3.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Khush: Roboticist</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Khush Agrawal</copyright><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0530</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://khush3.github.io/img/roboticist.jpg</url>
       <title>Khush: Roboticist</title>
       <link>https://khush3.github.io/</link>
     </image>
@@ -38,13 +38,13 @@ One method to avoid the cumbersome process of setting the ground rules could be 
     </item>
     
     <item>
-      <title>Representation Learning to boost Deep Q-Learning</title>
+      <title>RL on Latent Embeddings</title>
       <link>https://khush3.github.io/project/representation_rl/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/representation_rl/</guid>
-      <description>&lt;p&gt;•Aimed at using representation learning to boost the training speed of Deep Q-Learning Algorithm.&lt;/p&gt;
+      <description>&lt;p&gt;•Aimed at training Deep Q-Learning based agents on learned latent embeddings instead of higher dimensional image observations.&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
-&lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Representation learning can be used in such cases to leverage lower dimensional trained agents. The two-stage agent can be further be fine-tuned to adapt better.&lt;/p&gt;
+&lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Representation learning can be used in such cases to leverage lower dimensional trained agents. The two-stage agent can be further be fine-tuned to adapt better using end-to-end training. This approach is also more robust to variations in environment due to the fact that agents are trained on learnt representations instead of directly training on the environment observations.&lt;/p&gt;
 </description>
     </item>
     
@@ -63,15 +63,15 @@ One method to avoid the cumbersome process of setting the ground rules could be 
     
     <item>
       <title>Basics of Reinforcement Learning</title>
-      <link>https://khush3.github.io/mentorship_projects/rl-implementation/</link>
+      <link>https://khush3.github.io/project/rl-implementation-mentorship/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/mentorship_projects/rl-implementation/</guid>
+      <guid>https://khush3.github.io/project/rl-implementation-mentorship/</guid>
       <description>&lt;hr&gt;
 </description>
     </item>
     
     <item>
-      <title>Basics of Reinforcement Learning</title>
+      <title>Implementation of RL Algorithms</title>
       <link>https://khush3.github.io/project/rl-implementation/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/rl-implementation/</guid>
@@ -119,9 +119,9 @@ One method to avoid the cumbersome process of setting the ground rules could be 
     
     <item>
       <title>Real Time Digit Classifier</title>
-      <link>https://khush3.github.io/mentorship_projects/digit-classifiers/</link>
+      <link>https://khush3.github.io/project/digit-classifiers/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/mentorship_projects/digit-classifiers/</guid>
+      <guid>https://khush3.github.io/project/digit-classifiers/</guid>
       <description></description>
     </item>
     
@@ -153,20 +153,7 @@ One method to avoid the cumbersome process of setting the ground rules could be 
     </item>
     
     <item>
-      <title>Harmonic Motion Analyzer</title>
-      <link>https://khush3.github.io/project/harmonic-motion-analyzer/</link>
-      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/project/harmonic-motion-analyzer/</guid>
-      <description>&lt;p&gt;•Aimed at estimation equation of motion of a target-object video is selected to analyze its motion.&lt;br&gt;
-•Aimed at retrieving data associated with the motion of target-object using  elementary mathematics.&lt;br&gt;
-&lt;em&gt;This project was made for TechnoSeason, 2017 and was awarded first prize.&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
-&lt;p&gt;Simple harmonic motion can serve as a mathematical model for a variety of motions, such as the oscillation of a spring. Intending to learn computer vision and MATLAB, I worked on analyzing the motion of a target-object undergoing a damped harmonic motion. The target-object was separated from the background using color thresholding and estimated as a point object. Coordinates of this point were recorded and used to estimate the parameters associated with the mathematical model of the system like maximum displacement, mean position, the velocity at different time instants. A mathematical model was estimated by fitting a curve to the recorded data using MATLAB Curve Fitting Toolbox.&lt;/p&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Localization of a differential drive robot</title>
+      <title>2-Dimensional Localization</title>
       <link>https://khush3.github.io/project/pose_estim/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/pose_estim/</guid>
@@ -209,6 +196,19 @@ hardware for robot.&lt;br&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Harmonic Motion Analyzer</title>
+      <link>https://khush3.github.io/project/harmonic-motion-analyzer/</link>
+      <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/project/harmonic-motion-analyzer/</guid>
+      <description>&lt;p&gt;•Aimed at estimation equation of motion of a target-object video is selected to analyze its motion.&lt;br&gt;
+•Aimed at retrieving data associated with the motion of target-object using  elementary mathematics.&lt;br&gt;
+&lt;em&gt;This project was made for TechnoSeason, 2017 and was awarded first prize.&lt;/em&gt;&lt;/p&gt;
+&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Simple harmonic motion can serve as a mathematical model for a variety of motions, such as the oscillation of a spring. Intending to learn computer vision and MATLAB, I worked on analyzing the motion of a target-object undergoing a damped harmonic motion. The target-object was separated from the background using color thresholding and estimated as a point object. Coordinates of this point were recorded and used to estimate the parameters associated with the mathematical model of the system like maximum displacement, mean position, the velocity at different time instants. A mathematical model was estimated by fitting a curve to the recorded data using MATLAB Curve Fitting Toolbox.&lt;/p&gt;
 </description>
     </item>
     

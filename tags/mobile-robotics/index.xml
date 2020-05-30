@@ -5,9 +5,9 @@
     <link>https://khush3.github.io/tags/mobile-robotics/</link>
       <atom:link href="https://khush3.github.io/tags/mobile-robotics/index.xml" rel="self" type="application/rss+xml" />
     <description>Mobile Robotics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Khush Agrawal</copyright><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://khush3.github.io/img/roboticist.jpg</url>
       <title>Mobile Robotics</title>
       <link>https://khush3.github.io/tags/mobile-robotics/</link>
     </image>
@@ -28,7 +28,7 @@
     </item>
     
     <item>
-      <title>Localization of a differential drive robot</title>
+      <title>2-Dimensional Localization</title>
       <link>https://khush3.github.io/project/pose_estim/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/pose_estim/</guid>

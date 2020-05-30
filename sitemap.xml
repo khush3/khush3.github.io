@@ -68,6 +68,11 @@
   </url>
   
   <url>
+    <loc>https://khush3.github.io/tags/self/</loc>
+    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://khush3.github.io/tags/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -113,17 +118,7 @@
   </url>
   
   <url>
-    <loc>https://khush3.github.io/mentorship_projects/rl-implementation/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://khush3.github.io/project/rl-implementation/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://khush3.github.io/tags/demo/</loc>
+    <loc>https://khush3.github.io/project/rl-implementation-mentorship/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -138,7 +133,12 @@
   </url>
   
   <url>
-    <loc>https://khush3.github.io/mentorship_projects/</loc>
+    <loc>https://khush3.github.io/project/rl-implementation/</loc>
+    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://khush3.github.io/tags/mentorship/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -148,7 +148,7 @@
   </url>
   
   <url>
-    <loc>https://khush3.github.io/mentorship_projects/digit-classifiers/</loc>
+    <loc>https://khush3.github.io/project/digit-classifiers/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url>
   
@@ -163,6 +163,11 @@
   </url>
   
   <url>
+    <loc>https://khush3.github.io/project/pose_estim/</loc>
+    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://khush3.github.io/tags/computer-vision/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url>
@@ -174,11 +179,6 @@
   
   <url>
     <loc>https://khush3.github.io/tags/image-processing/</loc>
-    <lastmod>2018-05-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://khush3.github.io/project/pose_estim/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url>
   
