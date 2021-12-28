@@ -5,7 +5,7 @@
     <link>https://khush3.github.io/tags/electronics/</link>
       <atom:link href="https://khush3.github.io/tags/electronics/index.xml" rel="self" type="application/rss+xml" />
     <description>Electronics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Khush Agrawal</copyright><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Khush Agrawal</copyright><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://khush3.github.io/img/roboticist.jpg</url>
       <title>Electronics</title>
@@ -17,10 +17,10 @@
       <link>https://khush3.github.io/project/terra-former-robot/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/terra-former-robot/</guid>
-      <description>&lt;p&gt;•Aimed at developing a wirelessly controlled robot capable of moving objects.&lt;br&gt;
-•Developed a 3 DoF servo controlled arm with a gripper end effector for Pick-and-Place mechanism.&lt;br&gt;
-•Used 2 Arduinos for controlling arm and motion independently.&lt;br&gt;
-•Used a single channel relay for optimizing power consumption by switching off the arm when not in use.&lt;br&gt;
+      <description>&lt;p&gt;•Aimed at developing a wirelessly controlled robot capable of moving objects. &lt;br&gt;
+•Developed a 3 DoF servo controlled arm with a gripper end effector for Pick-and-Place mechanism. &lt;br&gt;
+•Used 2 Arduinos for controlling arm and motion independently. &lt;br&gt;
+•Used a single channel relay for optimizing power consumption by switching off the arm when not in use. &lt;br&gt;
 &lt;em&gt;This project was presented for AXIS(Technical Event at NIT-Nagpur), 2017 and was awarded a prize for innovative design.&lt;/em&gt;&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Robots are widely used in manufacturing, assembly and packing, transport, earth and space exploration, surgery, weaponry, laboratory research, and mass production of consumer and industrial goods. A Robot equipped with a Pick-and-Place mechanism can be used for numerous applications. The gripper mechanism was created using two spur gears with one fitted to a servo and the other to a dead-axle. Four additional servos were used to create the robotic manipulator arm.&lt;/p&gt;
@@ -32,7 +32,7 @@
       <link>https://khush3.github.io/project/sign-language/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/sign-language/</guid>
-      <description>&lt;p&gt;•Aimed at providing aid for speech-impaired people.&lt;br&gt;
+      <description>&lt;p&gt;•Aimed at providing aid for speech-impaired people. &lt;br&gt;
 •Fabricated an easy-to-use, low-cost, and lightweight device in the form of a glove.&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Description Sign languages are languages that use the visual-manual modality to convey meaning. Sign languages are expressed through manual articulations in combination with non-manual elements. Sign languages are full-fledged natural languages with their own grammar and lexicon. Unlike acoustically conveyed sound patterns, sign language uses body language and manual communication to convey the thoughts of a person fluently. It is achieved by simultaneously combining hand shapes, orientation and movement of the hands, arms or body, and facial expressions. This way of communication is, however, limited to a group of people, which introduces a communication barrier. The need for an interpreter is essential to tackle this problem. A possible approach is using computer vision and machine learning techniques. This approach can, however, be costly and needs a bulky hardware setup or particular application installation. Also, it is subject to lighting conditions and perspective problems. We devised a cost-effective and easy-to-use glove that can overcome these limitations and act as an interpreter flawlessly.&lt;/p&gt;
@@ -46,8 +46,8 @@
       <guid>https://khush3.github.io/project/pose_estim/</guid>
       <description>&lt;p&gt;•Designed algorithm for pose (rectangular coordinates, angle) estimation of a
 robot in a two dimensional plane using odometry, and developed the
-hardware for robot.&lt;br&gt;
-•Used ROS framework to establish communication between the nodes.&lt;br&gt;
+hardware for robot. &lt;br&gt;
+•Used ROS framework to establish communication between the nodes. &lt;br&gt;
 •Performed UMBmark test to calibrate robot base and wheel diameter constants .&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Robot localization is the process of determining where a mobile robot is located with respect to its environment. Localization is one of the most fundamental competencies required by an autonomous robot as the knowledge of the robot&amp;rsquo;s own location is an essential precursor to making decisions about future actions. In the summer of my freshman year, I worked on developing an algorithm to localize a differential-drive robot using odometry from scratch. I performed UMBmark test to calibrate robot base and wheel diameter constants. Besides this, I also developed the hardware for the robot.&lt;/p&gt;
@@ -56,30 +56,30 @@ hardware for robot.&lt;br&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th align=&#34;center&#34;&gt;FINAL RESULTS&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;MEASURED DATA&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;REAL-TIME DATA&lt;/th&gt;
-&lt;th align=&#34;center&#34;&gt;ACCURACY&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;FINAL RESULTS&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;MEASURED DATA&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;REAL-TIME DATA&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;ACCURACY&lt;/th&gt;
 &lt;/tr&gt;
 &lt;/thead&gt;
 &lt;tbody&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;ABSCISSA&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;25.4 cm&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;25.2 cm&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;99.3%&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;ABSCISSA&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;25.4 cm&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;25.2 cm&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;99.3%&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;ORDINATE&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;8.3 cm&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;8.3 cm&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;100%&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;ORDINATE&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8.3 cm&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;8.3 cm&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;100%&lt;/td&gt;
 &lt;/tr&gt;
 &lt;tr&gt;
-&lt;td align=&#34;center&#34;&gt;&lt;strong&gt;ANGLE&lt;/strong&gt;&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;357.1 degree&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;356 degree&lt;/td&gt;
-&lt;td align=&#34;center&#34;&gt;99.7%&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;&lt;strong&gt;ANGLE&lt;/strong&gt;&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;357.1 degree&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;356 degree&lt;/td&gt;
+&lt;td style=&#34;text-align:center&#34;&gt;99.7%&lt;/td&gt;
 &lt;/tr&gt;
 &lt;/tbody&gt;
 &lt;/table&gt;

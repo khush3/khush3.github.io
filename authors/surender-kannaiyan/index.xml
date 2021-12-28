@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Surender Kannaiyan | Khush: Roboticist</title>
+    <link>https://khush3.github.io/authors/surender-kannaiyan/</link>
+      <atom:link href="https://khush3.github.io/authors/surender-kannaiyan/index.xml" rel="self" type="application/rss+xml" />
+    <description>Surender Kannaiyan</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Khush Agrawal</copyright><lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://khush3.github.io/img/roboticist.jpg</url>
+      <title>Surender Kannaiyan</title>
+      <link>https://khush3.github.io/authors/surender-kannaiyan/</link>
+    </image>
+    
+    <item>
+      <title>DeepSCT: Deep Learning Based Self Correcting Object Tracking Mechanism</title>
+      <link>https://khush3.github.io/publication/deep_sct/</link>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/publication/deep_sct/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

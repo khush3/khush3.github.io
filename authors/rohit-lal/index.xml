@@ -5,7 +5,7 @@
     <link>https://khush3.github.io/authors/rohit-lal/</link>
       <atom:link href="https://khush3.github.io/authors/rohit-lal/index.xml" rel="self" type="application/rss+xml" />
     <description>Rohit Lal</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2020 Khush Agrawal</copyright><lastBuildDate>Fri, 10 Jan 2020 00:00:00 +0530</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Khush Agrawal</copyright><lastBuildDate>Tue, 27 Jul 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://khush3.github.io/img/roboticist.jpg</url>
       <title>Rohit Lal</title>
@@ -13,9 +13,17 @@
     </image>
     
     <item>
+      <title>DeepSCT: Deep Learning Based Self Correcting Object Tracking Mechanism</title>
+      <link>https://khush3.github.io/publication/deep_sct/</link>
+      <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/publication/deep_sct/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Person Following Robot using Multiplexed Detection and Tracking</title>
       <link>https://khush3.github.io/publication/person_follower/</link>
-      <pubDate>Fri, 10 Jan 2020 00:00:00 +0530</pubDate>
+      <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/publication/person_follower/</guid>
       <description>&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/idROzgggHzMfqJTNPy/giphy.gif&#34; alt=&#34;&#34;&gt;
