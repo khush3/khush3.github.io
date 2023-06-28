@@ -44,6 +44,9 @@
 
   
   
+  
+  <script src="/js/mathjax-config.js"></script>
+  
 
   
   
@@ -172,9 +175,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -492,35 +495,6 @@
         
         
 
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
       
 
         
@@ -667,6 +641,14 @@
 </button>
 
 
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/IvLabs/autonomous_stair_climbing_robot_v2" target="_blank" rel="noopener">
+  Code
+</a>
+
 
 
 
@@ -751,10 +733,14 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"><h3 id="results">Results</h3>
-<h4 id="key-frames-as-seen-through-robots-eyes">Key frames as seen through robot&rsquo;s eyes</h4>
-<p><img src="https://user-images.githubusercontent.com/34411770/74923820-77ca5e00-53f7-11ea-98e8-fc5c1d169025.png" alt=""></p>
-<h4 id="predicted-actions">Predicted Actions</h4>
+    <div class="article-style"><h3 id="qualitative-results">Qualitative results</h3>
+<h4 id="stair-segmentation">Stair segmentation</h4>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/agxyvn9lQmk" title="Stair Segmentation Results" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+We use a U-Net model for segmenting the stairs in the RGBD image input.
+<h4 id="stair-alignment">Stair alignment</h4>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/qudH-cXtLvo" title="Behavior Cloning Model Results" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+We use behavior cloning to learn a model that predicts actions (turn left/right, move forwards/backwards) per time step to align the TurtleBot2 with the stairs, given a segmented image of the stairs.
+<h3 id="quantitative-results">Quantitative results</h3>
 <p><img src="https://user-images.githubusercontent.com/34411770/74923881-89ac0100-53f7-11ea-9f8b-030d230c99db.png" alt=""></p>
 </div>
 

@@ -25,7 +25,24 @@
       <link>https://khush3.github.io/publication/deep_sct/</link>
       <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/publication/deep_sct/</guid>
-      <description></description>
+      <description>&lt;h4 id=&#34;deepsct-architecture&#34;&gt;DeepSCT Architecture&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;./abstract_flow_chart.png&#34; alt=&#34;&#34;&gt;
+An abstract block diagram of the proposed DeepSCT mechanism demonstrating the passage of data between the individual sub-blocks. The target is #rst acquired from the camera and fed into the Deep-SCT block for continuous tracking while also correcting compounded errors. This correction is achieved due to a continuous feedback loop mechanism using re-identification and detection sub-blocks. Note: Dotted line indicates a one-time initialization procedure.&lt;/p&gt;
+&lt;h3 id=&#34;deepsct-for-long-horizon-tracking-and-occlusion-handling&#34;&gt;DeepSCT for long-horizon tracking and occlusion handling&lt;/h3&gt;
+&lt;p&gt;We adopted the standard method: success and precision plots to evaluate the performance of our mechanism against some of the standard classical computer vision baselines. We perform One Pass Evaluation (OPE) for our mechanism on the VisDrone-2019 test dataset [1]. We present the tests we conducted on our mechanism on a multitude of test cases covering variable lighting, camera orientation, and object sizes. We tested DeepSCT on the VisDrone-SOT2019 dataset for a person-tracking task. We show that DeepSCT consistently outperforms the classical trackers in short-term and long-term tracking problems. We also show that DeepSCT can handle occlusions better than the classical trackers.&lt;/p&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/s6AolOzSZmw&#34; title=&#34;Drone simulation | DeepSCT&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;quantitative-results&#34;&gt;Quantitative results&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;./visdrone_quantitative_eval.png&#34; alt=&#34;&#34;&gt;
+The success and precision plots for evaluating DeepSCT (indicated in blue) against the baseline classical CV algorithms in long-term sequences. DeepSCT scored notably higher AUC scores outperforming all of the baseline trackers. Compared to short-term tracking, DeepSCT provides a considerably higher improvement for long-term tracking. Furthermore, the improvement is significant when the threshold is reasonable.&lt;/p&gt;
+&lt;h3 id=&#34;airsim-drone-simulation&#34;&gt;AirSim drone simulation&lt;/h3&gt;
+&lt;p&gt;Similar to the previous section, we adopt the standard success, and precision curves to evaluate the DeepSCT mechanism for the custom AirSim drone simulation environment. Accordingly, we perform One Pass Evaluation (OPE) by simulating ten trajectories while incorporating several instances of occlusion, viewpoint, and lighting changes. We also calculate the Area Under Curve (AUC) for both the plots for all tested algorithms and show these in the quantitative results. The plots clearly illustrate that the DeepSCT mechanism outperforms all of the classical algorithms by a significant margin. This significant difference in performance is a result of the inherent correcting nature of the DeepSCT mechanism. While other algorithms are unable to recover in cases of failure, DeepSCT can still recover. As a result, classical methods fail severely in long-term trajectories.&lt;/p&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/s6AolOzSZmw&#34; title=&#34;Drone simulation | DeepSCT&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;quantitative-results-1&#34;&gt;Quantitative results&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;./sim_quantitative_eval.png&#34; alt=&#34;&#34;&gt;
+The success and precision plots for comparing DeepSCT (indicated in blue) against the baseline classical computer vision algorithms. It is clear from the plots that DeepSCT outperforms the other trackers by a significant margin).&lt;/p&gt;
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+&lt;p&gt;[1] Du, Dawei, Pengfei Zhu, Longyin Wen, Xiao Bian, Haibin Ling, Qinghua Hu, Jiayu Zheng et al. &amp;ldquo;VisDrone-SOT2019: The vision meets drone single object tracking challenge results.&amp;rdquo; In Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops, pp. 0-0. 2019.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -33,12 +50,7 @@
       <link>https://khush3.github.io/publication/person_follower/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/publication/person_follower/</guid>
-      <description>&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/idROzgggHzMfqJTNPy/giphy.gif&#34; alt=&#34;&#34;&gt;
-
-&lt;a href=&#34;https://www.youtube.com/watch?v=XnrbU1050ls&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the complete demonstration.&lt;/a&gt;
-&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
   </channel>

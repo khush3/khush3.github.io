@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Deep Learning | Khush: Roboticist</title>
+    <title>Deep learning | Khush: Roboticist</title>
     <link>https://khush3.github.io/tags/deep-learning/</link>
       <atom:link href="https://khush3.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
-    <description>Deep Learning</description>
+    <description>Deep learning</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Khush Agrawal</copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://khush3.github.io/img/roboticist.jpg</url>
-      <title>Deep Learning</title>
+      <title>Deep learning</title>
       <link>https://khush3.github.io/tags/deep-learning/</link>
     </image>
     
@@ -17,7 +17,7 @@
       <link>https://khush3.github.io/project/experience-transfer/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/experience-transfer/</guid>
-      <description>&lt;p&gt;•Aimed to transfer the experience of a teacher agent, receiving higher and lower dimensional observations to train student-agent, receiving only higher dimensional observations.&lt;/p&gt;
+      <description>&lt;p&gt;Aimed to transfer the experience of a teacher agent, receiving higher and lower dimensional observations to train student-agent, receiving only higher dimensional observations.&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Imitation Learning can be used in such cases to avoid random policy initializations. However, to use Imitation Learning, one needs to generate experience from an (expert) agent. A human (expert) agent generating these experience, needs to follow a set of ground rules to stick to the IID-data assumption needed to ensure stability in training. &lt;br&gt;
 One method to avoid the cumbersome process of setting the ground rules could be to use an (expert) agent, trained on lower dimensional observations. Training on lower dimensional data is known to be computationally efficient and less time consuming&lt;!--[Citation needed] --&gt;. The experience of this trained agent can hence be used to train the higher dimensional agent.&lt;/p&gt;
@@ -26,10 +26,10 @@ One method to avoid the cumbersome process of setting the ground rules could be 
     
     <item>
       <title>RL on Latent Embeddings</title>
-      <link>https://khush3.github.io/project/representation_rl/</link>
+      <link>https://khush3.github.io/project/rl-for-rl/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/project/representation_rl/</guid>
-      <description>&lt;p&gt;•Aimed at training Deep Q-Learning based agents on learned latent embeddings instead of higher dimensional image observations.&lt;/p&gt;
+      <guid>https://khush3.github.io/project/rl-for-rl/</guid>
+      <description>&lt;p&gt;Aimed at training Deep Q-Learning based agents on learned latent embeddings instead of higher dimensional image observations.&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Representation learning can be used in such cases to leverage lower dimensional trained agents. The two-stage agent can be further be fine-tuned to adapt better using end-to-end training. This approach is also more robust to variations in environment due to the fact that agents are trained on learnt representations instead of directly training on the environment observations.&lt;/p&gt;
 </description>
@@ -37,13 +37,13 @@ One method to avoid the cumbersome process of setting the ground rules could be 
     
     <item>
       <title>Implementation of RL Algorithms</title>
-      <link>https://khush3.github.io/project/rl-implementation/</link>
+      <link>https://khush3.github.io/project/rl-basics/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/project/rl-implementation/</guid>
+      <guid>https://khush3.github.io/project/rl-basics/</guid>
       <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
-&lt;p&gt;To broaden my perspective on Machine Learning, I took up Reinforcement Learning courses by David Silver, Stanford CS234. To understand the nuances in the field, I implemented basic algorithms. The inspiration for the same was also drawn through 
-&lt;a href=&#34;https://khush3.github.io/publication/stair_climbing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a project&lt;/a&gt;
- where the idea of using Imitation Learning to overcome several limitations, struck me.&lt;/p&gt;
+&lt;p&gt;Working on the 
+&lt;a href=&#34;https://khush3.github.io/publication/stair_climbing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;autonomous stair-climbing robot&lt;/a&gt;
+ highlighted the limitations of behavior cloning. This realization motivated me to study reinforcement learning. Following are some of the results of my implementation of basic reinforcement learning algorithms form scratch using PyTorch, NumPy, and OpenCV.&lt;/p&gt;
 &lt;h3 id=&#34;implementated&#34;&gt;Implementated:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; DQN&lt;/li&gt;

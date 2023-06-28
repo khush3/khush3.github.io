@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine learning | Khush: Roboticist</title>
+    <link>https://khush3.github.io/tags/machine-learning/</link>
+      <atom:link href="https://khush3.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Machine learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Khush Agrawal</copyright><lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://khush3.github.io/img/roboticist.jpg</url>
+      <title>Machine learning</title>
+      <link>https://khush3.github.io/tags/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Skill learning</title>
+      <link>https://khush3.github.io/project/skill-learning/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/project/skill-learning/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Agents building temporally abstract representations of their environment can better understand their world and make plans on extended time scales with limited computational power and modeling capacity. Existing methods for learning world models either operate per timestep or assume a fixed number of timesteps for abstraction. Our approach simultaneously learns variable-length skills and temporally abstract, skill-conditioned world models from offline data. This leads to much higher confidence in dynamics predictions allowing zero-shot online planning by composing skills for new tasks. Furthermore, compared to policy-based methods, this approach offers a much higher degree of robustness to perturbations in environmental dynamics.&lt;/p&gt;
+&lt;h4 id=&#34;overview-of-offline-skill-learning&#34;&gt;Overview of offline skill learning&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;./sketch.png&#34; alt=&#34;skill learning overview&#34;&gt;
+During the offline training phase, our algorithm automatically extracts &lt;em&gt;semantically meaningful skills&lt;/em&gt; and skill conditioned dynamics model from the offline data. During the online planning phase, the planner uses the learned skill conditioned dynamics model to plan a sequence of skills to achieve the goal.&lt;/p&gt;
+&lt;h3 id=&#34;legend&#34;&gt;Legend&lt;/h3&gt;
+&lt;h4 id=&#34;notation&#34;&gt;Notation&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Environment state: $s$&lt;/li&gt;
+&lt;li&gt;Action: $a$&lt;/li&gt;
+&lt;li&gt;trajectory: $\tau$&lt;/li&gt;
+&lt;li&gt;skill: $z$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;components&#34;&gt;Components&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Skill prior: $z \sim p_{\omega}(z | s_0)$&lt;/li&gt;
+&lt;li&gt;Abstract dynamics model: $s_T \sim p_{\psi}(s_T | s_0, z)$&lt;/li&gt;
+&lt;li&gt;Lower level policy: $a_t \sim \pi_{\theta}(a_t | s_t, z)$&lt;/li&gt;
+&lt;li&gt;Termination predictor: $b_t = p_{\phi}(s_t, z, s_T) &amp;gt; 0.5$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;h4 id=&#34;planning-procedure&#34;&gt;Planning procedure&lt;/h4&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/jgAlwWdpMzI&#34; title=&#34;Maze2d planning&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+During the offline skill extraction phase, we learn a state conditioned prior ($p_{\omega}$) that outputs a priori skill distribution given environment state ($p_{\omega}(z|s_t)$). We use this to sample a batch of skills. These sampled skills are inputed to the abstract dynamics model ($p_{\psi}$) that predicts the terminal state distribution for each of the skill sample ($s_T \sim p_{\psi}(s_T|s_0, z)$). Hence, we select a subset of the skills with terminal states closest to the goal state. Finally, we use the selected skills to execute in the environment.
+&lt;h4 id=&#34;execution-of-the-selected-skills&#34;&gt;Execution of the selected skills&lt;/h4&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/NuXD62qTcoM&#34; title=&#34;&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+For execution we pass the selected skill and the environment state through the lower level policy ($\pi_{\theta}$) that predicts the action to execute ($a_t \sim \pi_{\theta}(a_t|s_t, z)$). The action is then executed in the environment and the next state is observed. This process is repeated until termination is predicted by the termination predictor ($b_t = 1 = p_{\phi}(s_t, z, s_T) &gt; 0.5$).
+</description>
+    </item>
+    
+    <item>
+      <title>Basics of Reinforcement Learning</title>
+      <link>https://khush3.github.io/mentorship/rl-basics/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/mentorship/rl-basics/</guid>
+      <description>&lt;hr&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Real Time Digit Classifier</title>
+      <link>https://khush3.github.io/mentorship/digit-classifiers/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/mentorship/digit-classifiers/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

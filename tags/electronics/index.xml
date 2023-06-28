@@ -5,7 +5,7 @@
     <link>https://khush3.github.io/tags/electronics/</link>
       <atom:link href="https://khush3.github.io/tags/electronics/index.xml" rel="self" type="application/rss+xml" />
     <description>Electronics</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Khush Agrawal</copyright><lastBuildDate>Sat, 01 Jun 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Khush Agrawal</copyright><lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://khush3.github.io/img/roboticist.jpg</url>
       <title>Electronics</title>
@@ -13,50 +13,147 @@
     </image>
     
     <item>
+      <title>Snake-like robots</title>
+      <link>https://khush3.github.io/project/snake-robot/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/project/snake-robot/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;SnakeLib is a ROS-based package that holds past gait research on modular snake robots and serves as a platform to facilitate further development. SnakeLib’s basic gait implementations provide a user-friendly and intuitive way to operate the robot with a joystick.&lt;/p&gt;
+&lt;h3 id=&#34;contributions&#34;&gt;Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A set of ROS packages for simulating and controlling Biorobotics Lab snake robots.&lt;/li&gt;
+&lt;li&gt;ROS based software to control ReU, SEA, and RSnake snake robots, receive sensor feedback, and create visualizations.&lt;/li&gt;
+&lt;li&gt;ROS diagram&lt;/li&gt;
+&lt;li&gt;HEBI ros node for sending joint commands to HEBI electronics and reading sensor feedback&lt;/li&gt;
+&lt;li&gt;Camera node to read camera in the ReU snakehead&lt;/li&gt;
+&lt;li&gt;Gait library to host manually programmed snake gaits&lt;/li&gt;
+&lt;li&gt;Joystick node to convert joystick inputs to snake commands&lt;/li&gt;
+&lt;li&gt;Robot class for easy to use IK and FK implementations&lt;/li&gt;
+&lt;li&gt;RViz and PyQt based GUI to visualize state and camera feedback&lt;/li&gt;
+&lt;li&gt;Snake state node for virtual chassis implementation for robot state visualization&lt;/li&gt;
+&lt;li&gt;GUI node to create PyQt interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;demos&#34;&gt;Demos&lt;/h3&gt;
+&lt;h4 id=&#34;sidewinding&#34;&gt;Sidewinding&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\alpha(n, t) = \beta_{even} + A_{even}sin(\omega_{t, even}t + \omega_{s, even}n) \forall \text{even n}
+$$
+$$
+\alpha(n, t) = \beta_{odd} + A_{odd}sin(\omega_{t, odd} + \omega_{s, odd}n) \forall \text{odd n}
+$$
+Sideways moving gait inspired by snake&#39;s &lt;a href=&#34;https://en.wikipedia.org/wiki/Sidewinding&#34;&gt;sidewinding&lt;/a&gt; motion.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/ca5w6SdWUuA&#34; title=&#34;ReU - Sidewinding&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;rolling&#34;&gt;Rolling&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\alpha(n, t) = \beta_{even} + A_{even}sin(\omega_{t, even}t + \omega_{s, even}n) \forall \text{even n}
+$$
+$$
+\alpha(n, t) = \beta_{odd} + A_{odd}sin(\omega_{t, odd} + \omega_{s, odd}n) \forall \text{odd n}
+$$
+Sideways moving gait inspired rolling motion of a body. Here, the wave only propogates in time (i.e., $\omega_s = 0$) and the horizontal and vertical waves are offset by $\pi/2$.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/uk6MReCvLy8&#34; title=&#34;ReU - Rolling&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;linear-progression&#34;&gt;Linear progression&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\alpha(n, t) = \beta_{even} + A_{even}sin(\omega_{t, even}t + \omega_{s, even}n) \forall \text{even n}
+$$
+$$
+\alpha(n, t) = \beta_{odd} + A_{odd}sin(\omega_{t, odd} + \omega_{s, odd}n) \forall \text{odd n}
+$$
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/VseLw1O8en0&#34; title=&#34;ReU - Linear progression&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;pole-climbing&#34;&gt;Pole climbing&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/ITlWLMf-Vw0&#34; title=&#34;ReU - pole climbing&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;ik-based-headlook&#34;&gt;IK-based headlook&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\dot{q} = J(q)^{+}v
+$$
+Here, &lt;br&gt;
+$\dot{q}$: Joint velocities &lt;br&gt;
+$J^{+}$: Pseudo-inverse of the jacobian &lt;br&gt;
+$v$: End-effector velocity &lt;br&gt;
+Controls the end-effector (snake head) in cartesian space using inverse jacobian approach.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/7KOV2xjcpLo&#34; title=&#34;ReU - IK-based headlook&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;slithering&#34;&gt;Slithering&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+Forward moving gait inspired by snake&#39;s [slithering](https://en.wikipedia.org/wiki/Snake_locomotion#Slithering) motion.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/i-T2Yt1NjIw&#34; title=&#34;ReU- slithering&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;turn-in-place&#34;&gt;Turn-in-place&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\alpha(n, t) = \beta_{even} + A_{even}sin(\omega_{t, even}t + \omega_{s, even}n) \forall \text{even n}
+$$
+$$
+\alpha(n, t) = \beta_{odd} + A_{odd}sin(\omega_{t, odd} + \omega_{s, odd}n) \forall \text{odd n}
+$$
+Implemented by running opposite direction &lt;a href=&#34;#sidewinding&#34;&gt;sidewinding&lt;/a&gt; gait in two halfs of the snake robot.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/b6cp0hJg4nQ&#34; title=&#34;ReU - Turn-in-place&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;!-- [Check out the complete demonstration.](https://www.youtube.com/watch?v=XnrbU1050ls) --&gt;
+</description>
+    </item>
+    
+    <item>
       <title>Terra-former Robot</title>
       <link>https://khush3.github.io/project/terra-former-robot/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/terra-former-robot/</guid>
-      <description>&lt;p&gt;•Aimed at developing a wirelessly controlled robot capable of moving objects. &lt;br&gt;
-•Developed a 3 DoF servo controlled arm with a gripper end effector for Pick-and-Place mechanism. &lt;br&gt;
-•Used 2 Arduinos for controlling arm and motion independently. &lt;br&gt;
-•Used a single channel relay for optimizing power consumption by switching off the arm when not in use. &lt;br&gt;
-&lt;em&gt;This project was presented for AXIS(Technical Event at NIT-Nagpur), 2017 and was awarded a prize for innovative design.&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Robots are widely used in manufacturing, assembly and packing, transport, earth and space exploration, surgery, weaponry, laboratory research, and mass production of consumer and industrial goods. A Robot equipped with a Pick-and-Place mechanism can be used for numerous applications. The gripper mechanism was created using two spur gears with one fitted to a servo and the other to a dead-axle. Four additional servos were used to create the robotic manipulator arm.&lt;/p&gt;
+&lt;h3 id=&#34;contributions&#34;&gt;Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Aimed at developing a wirelessly controlled robot capable of moving objects.&lt;/li&gt;
+&lt;li&gt;Developed a 3 DoF servo controlled arm with a gripper end effector for Pick-and-Place mechanism.&lt;/li&gt;
+&lt;li&gt;Used 2 Arduinos for controlling arm and motion independently.&lt;/li&gt;
+&lt;li&gt;Used a single channel relay for optimizing power consumption by switching off the arm when not in use.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;This project was presented for AXIS (Technical festival at NIT-Nagpur), 2017 and was awarded a prize for innovative design.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Sign Language Translator</title>
-      <link>https://khush3.github.io/project/sign-language/</link>
+      <link>https://khush3.github.io/project/sign-language-detector/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/project/sign-language/</guid>
-      <description>&lt;p&gt;•Aimed at providing aid for speech-impaired people. &lt;br&gt;
-•Fabricated an easy-to-use, low-cost, and lightweight device in the form of a glove.&lt;/p&gt;
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+      <guid>https://khush3.github.io/project/sign-language-detector/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Description Sign languages are languages that use the visual-manual modality to convey meaning. Sign languages are expressed through manual articulations in combination with non-manual elements. Sign languages are full-fledged natural languages with their own grammar and lexicon. Unlike acoustically conveyed sound patterns, sign language uses body language and manual communication to convey the thoughts of a person fluently. It is achieved by simultaneously combining hand shapes, orientation and movement of the hands, arms or body, and facial expressions. This way of communication is, however, limited to a group of people, which introduces a communication barrier. The need for an interpreter is essential to tackle this problem. A possible approach is using computer vision and machine learning techniques. This approach can, however, be costly and needs a bulky hardware setup or particular application installation. Also, it is subject to lighting conditions and perspective problems. We devised a cost-effective and easy-to-use glove that can overcome these limitations and act as an interpreter flawlessly.&lt;/p&gt;
+&lt;h3 id=&#34;contributions&#34;&gt;Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Aimed at providing aid for speech-impaired people.&lt;/li&gt;
+&lt;li&gt;Fabricated an easy-to-use, low-cost, and lightweight device in the form of a glove.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>2-Dimensional Localization</title>
-      <link>https://khush3.github.io/project/pose_estim/</link>
+      <link>https://khush3.github.io/project/pose-estimating-mobile-robot/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/project/pose_estim/</guid>
-      <description>&lt;p&gt;•Designed algorithm for pose (rectangular coordinates, angle) estimation of a
-robot in a two dimensional plane using odometry, and developed the
-hardware for robot. &lt;br&gt;
-•Used ROS framework to establish communication between the nodes. &lt;br&gt;
-•Performed UMBmark test to calibrate robot base and wheel diameter constants .&lt;/p&gt;
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+      <guid>https://khush3.github.io/project/pose-estimating-mobile-robot/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Robot localization is the process of determining where a mobile robot is located with respect to its environment. Localization is one of the most fundamental competencies required by an autonomous robot as the knowledge of the robot&amp;rsquo;s own location is an essential precursor to making decisions about future actions. In the summer of my freshman year, I worked on developing an algorithm to localize a differential-drive robot using odometry from scratch. I performed UMBmark test to calibrate robot base and wheel diameter constants. Besides this, I also developed the hardware for the robot.&lt;/p&gt;
+&lt;h3 id=&#34;contributions&#34;&gt;Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed algorithm for pose (rectangular coordinates, angle) estimation of a robot in a two dimensional plane using odometry, and developed the hardware for robot.&lt;/li&gt;
+&lt;li&gt;Used ROS framework to establish communication between the nodes.&lt;/li&gt;
+&lt;li&gt;Performed UMBmark test to calibrate robot base and wheel diameter constants.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/MdSNDislPQsoyDL4Is/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;FINAL RESULTS&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
 &lt;th style=&#34;text-align:center&#34;&gt;MEASURED DATA&lt;/th&gt;
 &lt;th style=&#34;text-align:center&#34;&gt;REAL-TIME DATA&lt;/th&gt;
 &lt;th style=&#34;text-align:center&#34;&gt;ACCURACY&lt;/th&gt;

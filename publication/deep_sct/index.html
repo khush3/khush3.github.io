@@ -28,7 +28,7 @@
   
     
   
-  <meta name="description" content="This paper presents a novel mechanism, DeepSCT, to handle the long-term object tracking problem in Computer Vision. The paper builds around the premise that the classical tracking algorithms can handle short-term tracking problems efficiently; however, they fail in the case of long-term tracking due to several environmental disturbances like occlusion and out-of-frame going targets. The relatively newer Deep Learning based trackers have higher efficacy but suffer from working in real-time on low-end hardware. We try to fuse the two methods in a unique way such that the resulting algorithm has higher efficiency and accuracy simultaneously. We present a modular mechanism, which can accommodate improvements in its sub-blocks. The algorithm was tested on the VisDrone-SOT2019 dataset for a person tracking task. We quantitatively and qualitatively show that DeepSCT significantly improved classical algorithms&#39; performance in short-term and long-term tracking problems.">
+  <meta name="description" content="We present a novel mechanism, DeepSCT, to handle the long-term object tracking problem. We build around the premise that the classical tracking algorithms can handle short-term tracking problems efficiently; however, failing in long-term tracking due to occlusion and lost targets. On the other hand, deep learning object detection has higher efficacy but suffers from heavy computational requirements. We present a modular fusion mechanism that inherits higher efficiency and efficacy simultaneously. Finally, we showcase the significant speed and precision improvements in the VisDrone-SOT2019 dataset and an application of person following in a custom AirSim drone simulation.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://khush3.github.io/publication/deep_sct/">
@@ -43,6 +43,9 @@
   
 
   
+  
+  
+  <script src="/js/mathjax-config.js"></script>
   
 
   
@@ -172,9 +175,9 @@
 
       
       
-        
-      
 
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
       
     
       
@@ -228,7 +231,7 @@
   <meta property="og:site_name" content="Khush: Roboticist">
   <meta property="og:url" content="https://khush3.github.io/publication/deep_sct/">
   <meta property="og:title" content="DeepSCT: Deep Learning Based Self Correcting Object Tracking Mechanism | Khush: Roboticist">
-  <meta property="og:description" content="This paper presents a novel mechanism, DeepSCT, to handle the long-term object tracking problem in Computer Vision. The paper builds around the premise that the classical tracking algorithms can handle short-term tracking problems efficiently; however, they fail in the case of long-term tracking due to several environmental disturbances like occlusion and out-of-frame going targets. The relatively newer Deep Learning based trackers have higher efficacy but suffer from working in real-time on low-end hardware. We try to fuse the two methods in a unique way such that the resulting algorithm has higher efficiency and accuracy simultaneously. We present a modular mechanism, which can accommodate improvements in its sub-blocks. The algorithm was tested on the VisDrone-SOT2019 dataset for a person tracking task. We quantitatively and qualitatively show that DeepSCT significantly improved classical algorithms&#39; performance in short-term and long-term tracking problems."><meta property="og:image" content="https://khush3.github.io/img/roboticist.jpg">
+  <meta property="og:description" content="We present a novel mechanism, DeepSCT, to handle the long-term object tracking problem. We build around the premise that the classical tracking algorithms can handle short-term tracking problems efficiently; however, failing in long-term tracking due to occlusion and lost targets. On the other hand, deep learning object detection has higher efficacy but suffers from heavy computational requirements. We present a modular fusion mechanism that inherits higher efficiency and efficacy simultaneously. Finally, we showcase the significant speed and precision improvements in the VisDrone-SOT2019 dataset and an application of person following in a custom AirSim drone simulation."><meta property="og:image" content="https://khush3.github.io/img/roboticist.jpg">
   <meta property="twitter:image" content="https://khush3.github.io/img/roboticist.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -278,7 +281,7 @@
       "url": "img/https://khush3.github.io/"
     }
   },
-  "description": "This paper presents a novel mechanism, DeepSCT, to handle the long-term object tracking problem in Computer Vision. The paper builds around the premise that the classical tracking algorithms can handle short-term tracking problems efficiently; however, they fail in the case of long-term tracking due to several environmental disturbances like occlusion and out-of-frame going targets. The relatively newer Deep Learning based trackers have higher efficacy but suffer from working in real-time on low-end hardware. We try to fuse the two methods in a unique way such that the resulting algorithm has higher efficiency and accuracy simultaneously. We present a modular mechanism, which can accommodate improvements in its sub-blocks. The algorithm was tested on the VisDrone-SOT2019 dataset for a person tracking task. We quantitatively and qualitatively show that DeepSCT significantly improved classical algorithms' performance in short-term and long-term tracking problems."
+  "description": "We present a novel mechanism, DeepSCT, to handle the long-term object tracking problem. We build around the premise that the classical tracking algorithms can handle short-term tracking problems efficiently; however, failing in long-term tracking due to occlusion and lost targets. On the other hand, deep learning object detection has higher efficacy but suffers from heavy computational requirements. We present a modular fusion mechanism that inherits higher efficiency and efficacy simultaneously. Finally, we showcase the significant speed and precision improvements in the VisDrone-SOT2019 dataset and an application of person following in a custom AirSim drone simulation."
 }
 </script>
 
@@ -488,35 +491,6 @@
         
         
 
-        
-
-        
-        
-        
-          
-        
-
-        
-        
-        
-        
-        
-        
-          
-          
-          
-            
-          
-          
-        
-
-        <li class="nav-item">
-          <a class="nav-link " href="/#contact"><span>Contact</span></a>
-        </li>
-
-        
-        
-
       
 
         
@@ -688,7 +662,7 @@
 
     
     <h3>Abstract</h3>
-    <p class="pub-abstract">This paper presents a novel mechanism, DeepSCT, to handle the long-term object tracking problem in Computer Vision. The paper builds around the premise that the classical tracking algorithms can handle short-term tracking problems efficiently; however, they fail in the case of long-term tracking due to several environmental disturbances like occlusion and out-of-frame going targets. The relatively newer Deep Learning based trackers have higher efficacy but suffer from working in real-time on low-end hardware. We try to fuse the two methods in a unique way such that the resulting algorithm has higher efficiency and accuracy simultaneously. We present a modular mechanism, which can accommodate improvements in its sub-blocks. The algorithm was tested on the VisDrone-SOT2019 dataset for a person tracking task. We quantitatively and qualitatively show that DeepSCT significantly improved classical algorithms&rsquo; performance in short-term and long-term tracking problems.</p>
+    <p class="pub-abstract">We present a novel mechanism, DeepSCT, to handle the long-term object tracking problem. We build around the premise that the classical tracking algorithms can handle short-term tracking problems efficiently; however, failing in long-term tracking due to occlusion and lost targets. On the other hand, deep learning object detection has higher efficacy but suffers from heavy computational requirements. We present a modular fusion mechanism that inherits higher efficiency and efficacy simultaneously. Finally, we showcase the significant speed and precision improvements in the VisDrone-SOT2019 dataset and an application of person following in a custom AirSim drone simulation.</p>
     
 
     
@@ -728,7 +702,24 @@
 
     <div class="space-below"></div>
 
-    <div class="article-style"></div>
+    <div class="article-style"><h4 id="deepsct-architecture">DeepSCT Architecture</h4>
+<p><img src="./abstract_flow_chart.png" alt="">
+An abstract block diagram of the proposed DeepSCT mechanism demonstrating the passage of data between the individual sub-blocks. The target is #rst acquired from the camera and fed into the Deep-SCT block for continuous tracking while also correcting compounded errors. This correction is achieved due to a continuous feedback loop mechanism using re-identification and detection sub-blocks. Note: Dotted line indicates a one-time initialization procedure.</p>
+<h3 id="deepsct-for-long-horizon-tracking-and-occlusion-handling">DeepSCT for long-horizon tracking and occlusion handling</h3>
+<p>We adopted the standard method: success and precision plots to evaluate the performance of our mechanism against some of the standard classical computer vision baselines. We perform One Pass Evaluation (OPE) for our mechanism on the VisDrone-2019 test dataset [1]. We present the tests we conducted on our mechanism on a multitude of test cases covering variable lighting, camera orientation, and object sizes. We tested DeepSCT on the VisDrone-SOT2019 dataset for a person-tracking task. We show that DeepSCT consistently outperforms the classical trackers in short-term and long-term tracking problems. We also show that DeepSCT can handle occlusions better than the classical trackers.</p>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/s6AolOzSZmw" title="Drone simulation | DeepSCT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h4 id="quantitative-results">Quantitative results</h4>
+<p><img src="./visdrone_quantitative_eval.png" alt="">
+The success and precision plots for evaluating DeepSCT (indicated in blue) against the baseline classical CV algorithms in long-term sequences. DeepSCT scored notably higher AUC scores outperforming all of the baseline trackers. Compared to short-term tracking, DeepSCT provides a considerably higher improvement for long-term tracking. Furthermore, the improvement is significant when the threshold is reasonable.</p>
+<h3 id="airsim-drone-simulation">AirSim drone simulation</h3>
+<p>Similar to the previous section, we adopt the standard success, and precision curves to evaluate the DeepSCT mechanism for the custom AirSim drone simulation environment. Accordingly, we perform One Pass Evaluation (OPE) by simulating ten trajectories while incorporating several instances of occlusion, viewpoint, and lighting changes. We also calculate the Area Under Curve (AUC) for both the plots for all tested algorithms and show these in the quantitative results. The plots clearly illustrate that the DeepSCT mechanism outperforms all of the classical algorithms by a significant margin. This significant difference in performance is a result of the inherent correcting nature of the DeepSCT mechanism. While other algorithms are unable to recover in cases of failure, DeepSCT can still recover. As a result, classical methods fail severely in long-term trajectories.</p>
+<iframe width="854" height="480" src="https://www.youtube.com/embed/s6AolOzSZmw" title="Drone simulation | DeepSCT" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+<h4 id="quantitative-results-1">Quantitative results</h4>
+<p><img src="./sim_quantitative_eval.png" alt="">
+The success and precision plots for comparing DeepSCT (indicated in blue) against the baseline classical computer vision algorithms. It is clear from the plots that DeepSCT outperforms the other trackers by a significant margin).</p>
+<h3 id="references">References</h3>
+<p>[1] Du, Dawei, Pengfei Zhu, Longyin Wen, Xiao Bian, Haibin Ling, Qinghua Hu, Jiayu Zheng et al. &ldquo;VisDrone-SOT2019: The vision meets drone single object tracking challenge results.&rdquo; In Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops, pp. 0-0. 2019.</p>
+</div>
 
     
 
