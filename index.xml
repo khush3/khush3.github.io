@@ -5,12 +5,137 @@
     <link>https://khush3.github.io/</link>
       <atom:link href="https://khush3.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Khush: Roboticist</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Khush Agrawal</copyright><lastBuildDate>Sun, 07 Nov 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Khush Agrawal</copyright><lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://khush3.github.io/img/roboticist.jpg</url>
       <title>Khush: Roboticist</title>
       <link>https://khush3.github.io/</link>
     </image>
+    
+    <item>
+      <title>Skill learning</title>
+      <link>https://khush3.github.io/project/skill-learning/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/project/skill-learning/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;Agents building temporally abstract representations of their environment can better understand their world and make plans on extended time scales with limited computational power and modeling capacity. Existing methods for learning world models either operate per timestep or assume a fixed number of timesteps for abstraction. Our approach simultaneously learns variable-length skills and temporally abstract, skill-conditioned world models from offline data. This leads to much higher confidence in dynamics predictions allowing zero-shot online planning by composing skills for new tasks. Furthermore, compared to policy-based methods, this approach offers a much higher degree of robustness to perturbations in environmental dynamics.&lt;/p&gt;
+&lt;h4 id=&#34;overview-of-offline-skill-learning&#34;&gt;Overview of offline skill learning&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;./sketch.png&#34; alt=&#34;skill learning overview&#34;&gt;
+During the offline training phase, our algorithm automatically extracts &lt;em&gt;semantically meaningful skills&lt;/em&gt; and skill conditioned dynamics model from the offline data. During the online planning phase, the planner uses the learned skill conditioned dynamics model to plan a sequence of skills to achieve the goal.&lt;/p&gt;
+&lt;h3 id=&#34;legend&#34;&gt;Legend&lt;/h3&gt;
+&lt;h4 id=&#34;notation&#34;&gt;Notation&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Environment state: $s$&lt;/li&gt;
+&lt;li&gt;Action: $a$&lt;/li&gt;
+&lt;li&gt;trajectory: $\tau$&lt;/li&gt;
+&lt;li&gt;skill: $z$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h4 id=&#34;components&#34;&gt;Components&lt;/h4&gt;
+&lt;ul&gt;
+&lt;li&gt;Skill prior: $z \sim p_{\omega}(z | s_0)$&lt;/li&gt;
+&lt;li&gt;Abstract dynamics model: $s_T \sim p_{\psi}(s_T | s_0, z)$&lt;/li&gt;
+&lt;li&gt;Lower level policy: $a_t \sim \pi_{\theta}(a_t | s_t, z)$&lt;/li&gt;
+&lt;li&gt;Termination predictor: $b_t = p_{\phi}(s_t, z, s_T) &amp;gt; 0.5$&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
+&lt;h4 id=&#34;planning-procedure&#34;&gt;Planning procedure&lt;/h4&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/jgAlwWdpMzI&#34; title=&#34;Maze2d planning&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+During the offline skill extraction phase, we learn a state conditioned prior ($p_{\omega}$) that outputs a priori skill distribution given environment state ($p_{\omega}(z|s_t)$). We use this to sample a batch of skills. These sampled skills are inputed to the abstract dynamics model ($p_{\psi}$) that predicts the terminal state distribution for each of the skill sample ($s_T \sim p_{\psi}(s_T|s_0, z)$). Hence, we select a subset of the skills with terminal states closest to the goal state. Finally, we use the selected skills to execute in the environment.
+&lt;h4 id=&#34;execution-of-the-selected-skills&#34;&gt;Execution of the selected skills&lt;/h4&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/NuXD62qTcoM&#34; title=&#34;&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+For execution we pass the selected skill and the environment state through the lower level policy ($\pi_{\theta}$) that predicts the action to execute ($a_t \sim \pi_{\theta}(a_t|s_t, z)$). The action is then executed in the environment and the next state is observed. This process is repeated until termination is predicted by the termination predictor ($b_t = 1 = p_{\phi}(s_t, z, s_T) &gt; 0.5$).
+</description>
+    </item>
+    
+    <item>
+      <title>Snake-like robots</title>
+      <link>https://khush3.github.io/project/snake-robot/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/project/snake-robot/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;SnakeLib is a ROS-based package that holds past gait research on modular snake robots and serves as a platform to facilitate further development. SnakeLib’s basic gait implementations provide a user-friendly and intuitive way to operate the robot with a joystick.&lt;/p&gt;
+&lt;h3 id=&#34;contributions&#34;&gt;Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A set of ROS packages for simulating and controlling Biorobotics Lab snake robots.&lt;/li&gt;
+&lt;li&gt;ROS based software to control ReU, SEA, and RSnake snake robots, receive sensor feedback, and create visualizations.&lt;/li&gt;
+&lt;li&gt;ROS diagram&lt;/li&gt;
+&lt;li&gt;HEBI ros node for sending joint commands to HEBI electronics and reading sensor feedback&lt;/li&gt;
+&lt;li&gt;Camera node to read camera in the ReU snakehead&lt;/li&gt;
+&lt;li&gt;Gait library to host manually programmed snake gaits&lt;/li&gt;
+&lt;li&gt;Joystick node to convert joystick inputs to snake commands&lt;/li&gt;
+&lt;li&gt;Robot class for easy to use IK and FK implementations&lt;/li&gt;
+&lt;li&gt;RViz and PyQt based GUI to visualize state and camera feedback&lt;/li&gt;
+&lt;li&gt;Snake state node for virtual chassis implementation for robot state visualization&lt;/li&gt;
+&lt;li&gt;GUI node to create PyQt interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;demos&#34;&gt;Demos&lt;/h3&gt;
+&lt;h4 id=&#34;sidewinding&#34;&gt;Sidewinding&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\alpha(n, t) = \beta_{even} + A_{even}sin(\omega_{t, even}t + \omega_{s, even}n) \forall \text{even n}
+$$
+$$
+\alpha(n, t) = \beta_{odd} + A_{odd}sin(\omega_{t, odd} + \omega_{s, odd}n) \forall \text{odd n}
+$$
+Sideways moving gait inspired by snake&#39;s &lt;a href=&#34;https://en.wikipedia.org/wiki/Sidewinding&#34;&gt;sidewinding&lt;/a&gt; motion.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/ca5w6SdWUuA&#34; title=&#34;ReU - Sidewinding&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;rolling&#34;&gt;Rolling&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\alpha(n, t) = \beta_{even} + A_{even}sin(\omega_{t, even}t + \omega_{s, even}n) \forall \text{even n}
+$$
+$$
+\alpha(n, t) = \beta_{odd} + A_{odd}sin(\omega_{t, odd} + \omega_{s, odd}n) \forall \text{odd n}
+$$
+Sideways moving gait inspired rolling motion of a body. Here, the wave only propogates in time (i.e., $\omega_s = 0$) and the horizontal and vertical waves are offset by $\pi/2$.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/uk6MReCvLy8&#34; title=&#34;ReU - Rolling&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;linear-progression&#34;&gt;Linear progression&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\alpha(n, t) = \beta_{even} + A_{even}sin(\omega_{t, even}t + \omega_{s, even}n) \forall \text{even n}
+$$
+$$
+\alpha(n, t) = \beta_{odd} + A_{odd}sin(\omega_{t, odd} + \omega_{s, odd}n) \forall \text{odd n}
+$$
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/VseLw1O8en0&#34; title=&#34;ReU - Linear progression&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;pole-climbing&#34;&gt;Pole climbing&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/ITlWLMf-Vw0&#34; title=&#34;ReU - pole climbing&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;ik-based-headlook&#34;&gt;IK-based headlook&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\dot{q} = J(q)^{+}v
+$$
+Here, &lt;br&gt;
+$\dot{q}$: Joint velocities &lt;br&gt;
+$J^{+}$: Pseudo-inverse of the jacobian &lt;br&gt;
+$v$: End-effector velocity &lt;br&gt;
+Controls the end-effector (snake head) in cartesian space using inverse jacobian approach.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/7KOV2xjcpLo&#34; title=&#34;ReU - IK-based headlook&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;slithering&#34;&gt;Slithering&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+Forward moving gait inspired by snake&#39;s [slithering](https://en.wikipedia.org/wiki/Snake_locomotion#Slithering) motion.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/i-T2Yt1NjIw&#34; title=&#34;ReU- slithering&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;turn-in-place&#34;&gt;Turn-in-place&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\alpha(n, t) = \beta_{even} + A_{even}sin(\omega_{t, even}t + \omega_{s, even}n) \forall \text{even n}
+$$
+$$
+\alpha(n, t) = \beta_{odd} + A_{odd}sin(\omega_{t, odd} + \omega_{s, odd}n) \forall \text{odd n}
+$$
+Implemented by running opposite direction &lt;a href=&#34;#sidewinding&#34;&gt;sidewinding&lt;/a&gt; gait in two halfs of the snake robot.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/b6cp0hJg4nQ&#34; title=&#34;ReU - Turn-in-place&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;!-- [Check out the complete demonstration.](https://www.youtube.com/watch?v=XnrbU1050ls) --&gt;
+</description>
+    </item>
     
     <item>
       <title>FabricFlowNet: Bimanual Cloth Manipulation with a Flow-based Policy</title>
@@ -25,7 +150,24 @@
       <link>https://khush3.github.io/publication/deep_sct/</link>
       <pubDate>Tue, 27 Jul 2021 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/publication/deep_sct/</guid>
-      <description></description>
+      <description>&lt;h4 id=&#34;deepsct-architecture&#34;&gt;DeepSCT Architecture&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;./abstract_flow_chart.png&#34; alt=&#34;&#34;&gt;
+An abstract block diagram of the proposed DeepSCT mechanism demonstrating the passage of data between the individual sub-blocks. The target is #rst acquired from the camera and fed into the Deep-SCT block for continuous tracking while also correcting compounded errors. This correction is achieved due to a continuous feedback loop mechanism using re-identification and detection sub-blocks. Note: Dotted line indicates a one-time initialization procedure.&lt;/p&gt;
+&lt;h3 id=&#34;deepsct-for-long-horizon-tracking-and-occlusion-handling&#34;&gt;DeepSCT for long-horizon tracking and occlusion handling&lt;/h3&gt;
+&lt;p&gt;We adopted the standard method: success and precision plots to evaluate the performance of our mechanism against some of the standard classical computer vision baselines. We perform One Pass Evaluation (OPE) for our mechanism on the VisDrone-2019 test dataset [1]. We present the tests we conducted on our mechanism on a multitude of test cases covering variable lighting, camera orientation, and object sizes. We tested DeepSCT on the VisDrone-SOT2019 dataset for a person-tracking task. We show that DeepSCT consistently outperforms the classical trackers in short-term and long-term tracking problems. We also show that DeepSCT can handle occlusions better than the classical trackers.&lt;/p&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/s6AolOzSZmw&#34; title=&#34;Drone simulation | DeepSCT&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;quantitative-results&#34;&gt;Quantitative results&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;./visdrone_quantitative_eval.png&#34; alt=&#34;&#34;&gt;
+The success and precision plots for evaluating DeepSCT (indicated in blue) against the baseline classical CV algorithms in long-term sequences. DeepSCT scored notably higher AUC scores outperforming all of the baseline trackers. Compared to short-term tracking, DeepSCT provides a considerably higher improvement for long-term tracking. Furthermore, the improvement is significant when the threshold is reasonable.&lt;/p&gt;
+&lt;h3 id=&#34;airsim-drone-simulation&#34;&gt;AirSim drone simulation&lt;/h3&gt;
+&lt;p&gt;Similar to the previous section, we adopt the standard success, and precision curves to evaluate the DeepSCT mechanism for the custom AirSim drone simulation environment. Accordingly, we perform One Pass Evaluation (OPE) by simulating ten trajectories while incorporating several instances of occlusion, viewpoint, and lighting changes. We also calculate the Area Under Curve (AUC) for both the plots for all tested algorithms and show these in the quantitative results. The plots clearly illustrate that the DeepSCT mechanism outperforms all of the classical algorithms by a significant margin. This significant difference in performance is a result of the inherent correcting nature of the DeepSCT mechanism. While other algorithms are unable to recover in cases of failure, DeepSCT can still recover. As a result, classical methods fail severely in long-term trajectories.&lt;/p&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/s6AolOzSZmw&#34; title=&#34;Drone simulation | DeepSCT&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;quantitative-results-1&#34;&gt;Quantitative results&lt;/h4&gt;
+&lt;p&gt;&lt;img src=&#34;./sim_quantitative_eval.png&#34; alt=&#34;&#34;&gt;
+The success and precision plots for comparing DeepSCT (indicated in blue) against the baseline classical computer vision algorithms. It is clear from the plots that DeepSCT outperforms the other trackers by a significant margin).&lt;/p&gt;
+&lt;h3 id=&#34;references&#34;&gt;References&lt;/h3&gt;
+&lt;p&gt;[1] Du, Dawei, Pengfei Zhu, Longyin Wen, Xiao Bian, Haibin Ling, Qinghua Hu, Jiayu Zheng et al. &amp;ldquo;VisDrone-SOT2019: The vision meets drone single object tracking challenge results.&amp;rdquo; In Proceedings of the IEEE/CVF International Conference on Computer Vision Workshops, pp. 0-0. 2019.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -33,12 +175,7 @@
       <link>https://khush3.github.io/publication/person_follower/</link>
       <pubDate>Fri, 10 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/publication/person_follower/</guid>
-      <description>&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
-&lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/idROzgggHzMfqJTNPy/giphy.gif&#34; alt=&#34;&#34;&gt;
-
-&lt;a href=&#34;https://www.youtube.com/watch?v=XnrbU1050ls&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;Check out the complete demonstration.&lt;/a&gt;
-&lt;/p&gt;
-</description>
+      <description></description>
     </item>
     
     <item>
@@ -46,7 +183,7 @@
       <link>https://khush3.github.io/project/experience-transfer/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/experience-transfer/</guid>
-      <description>&lt;p&gt;•Aimed to transfer the experience of a teacher agent, receiving higher and lower dimensional observations to train student-agent, receiving only higher dimensional observations.&lt;/p&gt;
+      <description>&lt;p&gt;Aimed to transfer the experience of a teacher agent, receiving higher and lower dimensional observations to train student-agent, receiving only higher dimensional observations.&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Imitation Learning can be used in such cases to avoid random policy initializations. However, to use Imitation Learning, one needs to generate experience from an (expert) agent. A human (expert) agent generating these experience, needs to follow a set of ground rules to stick to the IID-data assumption needed to ensure stability in training. &lt;br&gt;
 One method to avoid the cumbersome process of setting the ground rules could be to use an (expert) agent, trained on lower dimensional observations. Training on lower dimensional data is known to be computationally efficient and less time consuming&lt;!--[Citation needed] --&gt;. The experience of this trained agent can hence be used to train the higher dimensional agent.&lt;/p&gt;
@@ -55,10 +192,10 @@ One method to avoid the cumbersome process of setting the ground rules could be 
     
     <item>
       <title>RL on Latent Embeddings</title>
-      <link>https://khush3.github.io/project/representation_rl/</link>
+      <link>https://khush3.github.io/project/rl-for-rl/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/project/representation_rl/</guid>
-      <description>&lt;p&gt;•Aimed at training Deep Q-Learning based agents on learned latent embeddings instead of higher dimensional image observations.&lt;/p&gt;
+      <guid>https://khush3.github.io/project/rl-for-rl/</guid>
+      <description>&lt;p&gt;Aimed at training Deep Q-Learning based agents on learned latent embeddings instead of higher dimensional image observations.&lt;/p&gt;
 &lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Learning directly from higher dimensional data like video stream is known to be a difficult problem to tackle in Reinforcement Learning. Learning directly from higher dimensional data can also be very time consuming. Representation learning can be used in such cases to leverage lower dimensional trained agents. The two-stage agent can be further be fine-tuned to adapt better using end-to-end training. This approach is also more robust to variations in environment due to the fact that agents are trained on learnt representations instead of directly training on the environment observations.&lt;/p&gt;
 </description>
@@ -69,32 +206,36 @@ One method to avoid the cumbersome process of setting the ground rules could be 
       <link>https://khush3.github.io/publication/stair_climbing/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/publication/stair_climbing/</guid>
-      <description>&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
-&lt;h4 id=&#34;key-frames-as-seen-through-robots-eyes&#34;&gt;Key frames as seen through robot&amp;rsquo;s eyes&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/34411770/74923820-77ca5e00-53f7-11ea-98e8-fc5c1d169025.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;predicted-actions&#34;&gt;Predicted Actions&lt;/h4&gt;
+      <description>&lt;h3 id=&#34;qualitative-results&#34;&gt;Qualitative results&lt;/h3&gt;
+&lt;h4 id=&#34;stair-segmentation&#34;&gt;Stair segmentation&lt;/h4&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/agxyvn9lQmk&#34; title=&#34;Stair Segmentation Results&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+We use a U-Net model for segmenting the stairs in the RGBD image input.
+&lt;h4 id=&#34;stair-alignment&#34;&gt;Stair alignment&lt;/h4&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/qudH-cXtLvo&#34; title=&#34;Behavior Cloning Model Results&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+We use behavior cloning to learn a model that predicts actions (turn left/right, move forwards/backwards) per time step to align the TurtleBot2 with the stairs, given a segmented image of the stairs.
+&lt;h3 id=&#34;quantitative-results&#34;&gt;Quantitative results&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/34411770/74923881-89ac0100-53f7-11ea-9f8b-030d230c99db.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
     </item>
     
     <item>
       <title>Basics of Reinforcement Learning</title>
-      <link>https://khush3.github.io/project/rl-implementation-mentorship/</link>
+      <link>https://khush3.github.io/mentorship/rl-basics/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/project/rl-implementation-mentorship/</guid>
+      <guid>https://khush3.github.io/mentorship/rl-basics/</guid>
       <description>&lt;hr&gt;
 </description>
     </item>
     
     <item>
       <title>Implementation of RL Algorithms</title>
-      <link>https://khush3.github.io/project/rl-implementation/</link>
+      <link>https://khush3.github.io/project/rl-basics/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/project/rl-implementation/</guid>
+      <guid>https://khush3.github.io/project/rl-basics/</guid>
       <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
-&lt;p&gt;To broaden my perspective on Machine Learning, I took up Reinforcement Learning courses by David Silver, Stanford CS234. To understand the nuances in the field, I implemented basic algorithms. The inspiration for the same was also drawn through 
-&lt;a href=&#34;https://khush3.github.io/publication/stair_climbing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;a project&lt;/a&gt;
- where the idea of using Imitation Learning to overcome several limitations, struck me.&lt;/p&gt;
+&lt;p&gt;Working on the 
+&lt;a href=&#34;https://khush3.github.io/publication/stair_climbing/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;autonomous stair-climbing robot&lt;/a&gt;
+ highlighted the limitations of behavior cloning. This realization motivated me to study reinforcement learning. Following are some of the results of my implementation of basic reinforcement learning algorithms form scratch using PyTorch, NumPy, and OpenCV.&lt;/p&gt;
 &lt;h3 id=&#34;implementated&#34;&gt;Implementated:&lt;/h3&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;input checked=&#34;&#34; disabled=&#34;&#34; type=&#34;checkbox&#34;&gt; DQN&lt;/li&gt;
@@ -135,9 +276,9 @@ One method to avoid the cumbersome process of setting the ground rules could be 
     
     <item>
       <title>Real Time Digit Classifier</title>
-      <link>https://khush3.github.io/project/digit-classifiers/</link>
+      <link>https://khush3.github.io/mentorship/digit-classifiers/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/project/digit-classifiers/</guid>
+      <guid>https://khush3.github.io/mentorship/digit-classifiers/</guid>
       <description></description>
     </item>
     
@@ -146,46 +287,53 @@ One method to avoid the cumbersome process of setting the ground rules could be 
       <link>https://khush3.github.io/project/terra-former-robot/</link>
       <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/terra-former-robot/</guid>
-      <description>&lt;p&gt;•Aimed at developing a wirelessly controlled robot capable of moving objects. &lt;br&gt;
-•Developed a 3 DoF servo controlled arm with a gripper end effector for Pick-and-Place mechanism. &lt;br&gt;
-•Used 2 Arduinos for controlling arm and motion independently. &lt;br&gt;
-•Used a single channel relay for optimizing power consumption by switching off the arm when not in use. &lt;br&gt;
-&lt;em&gt;This project was presented for AXIS(Technical Event at NIT-Nagpur), 2017 and was awarded a prize for innovative design.&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Robots are widely used in manufacturing, assembly and packing, transport, earth and space exploration, surgery, weaponry, laboratory research, and mass production of consumer and industrial goods. A Robot equipped with a Pick-and-Place mechanism can be used for numerous applications. The gripper mechanism was created using two spur gears with one fitted to a servo and the other to a dead-axle. Four additional servos were used to create the robotic manipulator arm.&lt;/p&gt;
+&lt;h3 id=&#34;contributions&#34;&gt;Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Aimed at developing a wirelessly controlled robot capable of moving objects.&lt;/li&gt;
+&lt;li&gt;Developed a 3 DoF servo controlled arm with a gripper end effector for Pick-and-Place mechanism.&lt;/li&gt;
+&lt;li&gt;Used 2 Arduinos for controlling arm and motion independently.&lt;/li&gt;
+&lt;li&gt;Used a single channel relay for optimizing power consumption by switching off the arm when not in use.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;This project was presented for AXIS (Technical festival at NIT-Nagpur), 2017 and was awarded a prize for innovative design.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>Sign Language Translator</title>
-      <link>https://khush3.github.io/project/sign-language/</link>
+      <link>https://khush3.github.io/project/sign-language-detector/</link>
       <pubDate>Mon, 01 Apr 2019 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/project/sign-language/</guid>
-      <description>&lt;p&gt;•Aimed at providing aid for speech-impaired people. &lt;br&gt;
-•Fabricated an easy-to-use, low-cost, and lightweight device in the form of a glove.&lt;/p&gt;
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+      <guid>https://khush3.github.io/project/sign-language-detector/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Description Sign languages are languages that use the visual-manual modality to convey meaning. Sign languages are expressed through manual articulations in combination with non-manual elements. Sign languages are full-fledged natural languages with their own grammar and lexicon. Unlike acoustically conveyed sound patterns, sign language uses body language and manual communication to convey the thoughts of a person fluently. It is achieved by simultaneously combining hand shapes, orientation and movement of the hands, arms or body, and facial expressions. This way of communication is, however, limited to a group of people, which introduces a communication barrier. The need for an interpreter is essential to tackle this problem. A possible approach is using computer vision and machine learning techniques. This approach can, however, be costly and needs a bulky hardware setup or particular application installation. Also, it is subject to lighting conditions and perspective problems. We devised a cost-effective and easy-to-use glove that can overcome these limitations and act as an interpreter flawlessly.&lt;/p&gt;
+&lt;h3 id=&#34;contributions&#34;&gt;Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Aimed at providing aid for speech-impaired people.&lt;/li&gt;
+&lt;li&gt;Fabricated an easy-to-use, low-cost, and lightweight device in the form of a glove.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     
     <item>
       <title>2-Dimensional Localization</title>
-      <link>https://khush3.github.io/project/pose_estim/</link>
+      <link>https://khush3.github.io/project/pose-estimating-mobile-robot/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
-      <guid>https://khush3.github.io/project/pose_estim/</guid>
-      <description>&lt;p&gt;•Designed algorithm for pose (rectangular coordinates, angle) estimation of a
-robot in a two dimensional plane using odometry, and developed the
-hardware for robot. &lt;br&gt;
-•Used ROS framework to establish communication between the nodes. &lt;br&gt;
-•Performed UMBmark test to calibrate robot base and wheel diameter constants .&lt;/p&gt;
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+      <guid>https://khush3.github.io/project/pose-estimating-mobile-robot/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Robot localization is the process of determining where a mobile robot is located with respect to its environment. Localization is one of the most fundamental competencies required by an autonomous robot as the knowledge of the robot&amp;rsquo;s own location is an essential precursor to making decisions about future actions. In the summer of my freshman year, I worked on developing an algorithm to localize a differential-drive robot using odometry from scratch. I performed UMBmark test to calibrate robot base and wheel diameter constants. Besides this, I also developed the hardware for the robot.&lt;/p&gt;
+&lt;h3 id=&#34;contributions&#34;&gt;Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Designed algorithm for pose (rectangular coordinates, angle) estimation of a robot in a two dimensional plane using odometry, and developed the hardware for robot.&lt;/li&gt;
+&lt;li&gt;Used ROS framework to establish communication between the nodes.&lt;/li&gt;
+&lt;li&gt;Performed UMBmark test to calibrate robot base and wheel diameter constants.&lt;/li&gt;
+&lt;/ul&gt;
 &lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://media.giphy.com/media/MdSNDislPQsoyDL4Is/giphy.gif&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 &lt;table&gt;
 &lt;thead&gt;
 &lt;tr&gt;
-&lt;th style=&#34;text-align:center&#34;&gt;FINAL RESULTS&lt;/th&gt;
+&lt;th style=&#34;text-align:center&#34;&gt;&lt;/th&gt;
 &lt;th style=&#34;text-align:center&#34;&gt;MEASURED DATA&lt;/th&gt;
 &lt;th style=&#34;text-align:center&#34;&gt;REAL-TIME DATA&lt;/th&gt;
 &lt;th style=&#34;text-align:center&#34;&gt;ACCURACY&lt;/th&gt;
@@ -220,11 +368,14 @@ hardware for robot. &lt;br&gt;
       <link>https://khush3.github.io/project/harmonic-motion-analyzer/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/harmonic-motion-analyzer/</guid>
-      <description>&lt;p&gt;•Aimed at estimation equation of motion of a target-object video is selected to analyze its motion. &lt;br&gt;
-•Aimed at retrieving data associated with the motion of target-object using  elementary mathematics. &lt;br&gt;
-&lt;em&gt;This project was made for TechnoSeason, 2017 and was awarded first prize.&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Simple harmonic motion can serve as a mathematical model for a variety of motions, such as the oscillation of a spring. Intending to learn computer vision and MATLAB, I worked on analyzing the motion of a target-object undergoing a damped harmonic motion. The target-object was separated from the background using color thresholding and estimated as a point object. Coordinates of this point were recorded and used to estimate the parameters associated with the mathematical model of the system like maximum displacement, mean position, the velocity at different time instants. A mathematical model was estimated by fitting a curve to the recorded data using MATLAB Curve Fitting Toolbox.&lt;/p&gt;
+&lt;h3 id=&#34;contributions&#34;&gt;Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Estimated the equation of motion of a target-object video is selected to analyze its motion.&lt;/li&gt;
+&lt;li&gt;Retrieved data associated with the motion of target-object using  elementary mathematics.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;This project was made for TechnoSeason, 2017 and was awarded first prize.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

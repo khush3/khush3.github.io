@@ -17,10 +17,14 @@
       <link>https://khush3.github.io/publication/stair_climbing/</link>
       <pubDate>Sun, 01 Dec 2019 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/publication/stair_climbing/</guid>
-      <description>&lt;h3 id=&#34;results&#34;&gt;Results&lt;/h3&gt;
-&lt;h4 id=&#34;key-frames-as-seen-through-robots-eyes&#34;&gt;Key frames as seen through robot&amp;rsquo;s eyes&lt;/h4&gt;
-&lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/34411770/74923820-77ca5e00-53f7-11ea-98e8-fc5c1d169025.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
-&lt;h4 id=&#34;predicted-actions&#34;&gt;Predicted Actions&lt;/h4&gt;
+      <description>&lt;h3 id=&#34;qualitative-results&#34;&gt;Qualitative results&lt;/h3&gt;
+&lt;h4 id=&#34;stair-segmentation&#34;&gt;Stair segmentation&lt;/h4&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/agxyvn9lQmk&#34; title=&#34;Stair Segmentation Results&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+We use a U-Net model for segmenting the stairs in the RGBD image input.
+&lt;h4 id=&#34;stair-alignment&#34;&gt;Stair alignment&lt;/h4&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/qudH-cXtLvo&#34; title=&#34;Behavior Cloning Model Results&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+We use behavior cloning to learn a model that predicts actions (turn left/right, move forwards/backwards) per time step to align the TurtleBot2 with the stairs, given a segmented image of the stairs.
+&lt;h3 id=&#34;quantitative-results&#34;&gt;Quantitative results&lt;/h3&gt;
 &lt;p&gt;&lt;img src=&#34;https://user-images.githubusercontent.com/34411770/74923881-89ac0100-53f7-11ea-9f8b-030d230c99db.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;
 </description>
     </item>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ROS | Khush: Roboticist</title>
+    <link>https://khush3.github.io/tags/ros/</link>
+      <atom:link href="https://khush3.github.io/tags/ros/index.xml" rel="self" type="application/rss+xml" />
+    <description>ROS</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Khush Agrawal</copyright><lastBuildDate>Sat, 01 Apr 2023 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>https://khush3.github.io/img/roboticist.jpg</url>
+      <title>ROS</title>
+      <link>https://khush3.github.io/tags/ros/</link>
+    </image>
+    
+    <item>
+      <title>Snake-like robots</title>
+      <link>https://khush3.github.io/project/snake-robot/</link>
+      <pubDate>Sat, 01 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://khush3.github.io/project/snake-robot/</guid>
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+&lt;p&gt;SnakeLib is a ROS-based package that holds past gait research on modular snake robots and serves as a platform to facilitate further development. SnakeLib’s basic gait implementations provide a user-friendly and intuitive way to operate the robot with a joystick.&lt;/p&gt;
+&lt;h3 id=&#34;contributions&#34;&gt;Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;A set of ROS packages for simulating and controlling Biorobotics Lab snake robots.&lt;/li&gt;
+&lt;li&gt;ROS based software to control ReU, SEA, and RSnake snake robots, receive sensor feedback, and create visualizations.&lt;/li&gt;
+&lt;li&gt;ROS diagram&lt;/li&gt;
+&lt;li&gt;HEBI ros node for sending joint commands to HEBI electronics and reading sensor feedback&lt;/li&gt;
+&lt;li&gt;Camera node to read camera in the ReU snakehead&lt;/li&gt;
+&lt;li&gt;Gait library to host manually programmed snake gaits&lt;/li&gt;
+&lt;li&gt;Joystick node to convert joystick inputs to snake commands&lt;/li&gt;
+&lt;li&gt;Robot class for easy to use IK and FK implementations&lt;/li&gt;
+&lt;li&gt;RViz and PyQt based GUI to visualize state and camera feedback&lt;/li&gt;
+&lt;li&gt;Snake state node for virtual chassis implementation for robot state visualization&lt;/li&gt;
+&lt;li&gt;GUI node to create PyQt interface&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h3 id=&#34;demos&#34;&gt;Demos&lt;/h3&gt;
+&lt;h4 id=&#34;sidewinding&#34;&gt;Sidewinding&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\alpha(n, t) = \beta_{even} + A_{even}sin(\omega_{t, even}t + \omega_{s, even}n) \forall \text{even n}
+$$
+$$
+\alpha(n, t) = \beta_{odd} + A_{odd}sin(\omega_{t, odd} + \omega_{s, odd}n) \forall \text{odd n}
+$$
+Sideways moving gait inspired by snake&#39;s &lt;a href=&#34;https://en.wikipedia.org/wiki/Sidewinding&#34;&gt;sidewinding&lt;/a&gt; motion.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/ca5w6SdWUuA&#34; title=&#34;ReU - Sidewinding&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;rolling&#34;&gt;Rolling&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\alpha(n, t) = \beta_{even} + A_{even}sin(\omega_{t, even}t + \omega_{s, even}n) \forall \text{even n}
+$$
+$$
+\alpha(n, t) = \beta_{odd} + A_{odd}sin(\omega_{t, odd} + \omega_{s, odd}n) \forall \text{odd n}
+$$
+Sideways moving gait inspired rolling motion of a body. Here, the wave only propogates in time (i.e., $\omega_s = 0$) and the horizontal and vertical waves are offset by $\pi/2$.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/uk6MReCvLy8&#34; title=&#34;ReU - Rolling&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;linear-progression&#34;&gt;Linear progression&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\alpha(n, t) = \beta_{even} + A_{even}sin(\omega_{t, even}t + \omega_{s, even}n) \forall \text{even n}
+$$
+$$
+\alpha(n, t) = \beta_{odd} + A_{odd}sin(\omega_{t, odd} + \omega_{s, odd}n) \forall \text{odd n}
+$$
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/VseLw1O8en0&#34; title=&#34;ReU - Linear progression&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;pole-climbing&#34;&gt;Pole climbing&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/ITlWLMf-Vw0&#34; title=&#34;ReU - pole climbing&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;ik-based-headlook&#34;&gt;IK-based headlook&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\dot{q} = J(q)^{+}v
+$$
+Here, &lt;br&gt;
+$\dot{q}$: Joint velocities &lt;br&gt;
+$J^{+}$: Pseudo-inverse of the jacobian &lt;br&gt;
+$v$: End-effector velocity &lt;br&gt;
+Controls the end-effector (snake head) in cartesian space using inverse jacobian approach.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/7KOV2xjcpLo&#34; title=&#34;ReU - IK-based headlook&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;slithering&#34;&gt;Slithering&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+Forward moving gait inspired by snake&#39;s [slithering](https://en.wikipedia.org/wiki/Snake_locomotion#Slithering) motion.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/i-T2Yt1NjIw&#34; title=&#34;ReU- slithering&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;h4 id=&#34;turn-in-place&#34;&gt;Turn-in-place&lt;/h4&gt;
+&lt;details&gt;&lt;summary&gt;Summary&lt;/summary&gt;
+$$
+\alpha(n, t) = \beta_{even} + A_{even}sin(\omega_{t, even}t + \omega_{s, even}n) \forall \text{even n}
+$$
+$$
+\alpha(n, t) = \beta_{odd} + A_{odd}sin(\omega_{t, odd} + \omega_{s, odd}n) \forall \text{odd n}
+$$
+Implemented by running opposite direction &lt;a href=&#34;#sidewinding&#34;&gt;sidewinding&lt;/a&gt; gait in two halfs of the snake robot.
+&lt;/details&gt;
+&lt;iframe width=&#34;854&#34; height=&#34;480&#34; src=&#34;https://www.youtube.com/embed/b6cp0hJg4nQ&#34; title=&#34;ReU - Turn-in-place&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;!-- [Check out the complete demonstration.](https://www.youtube.com/watch?v=XnrbU1050ls) --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

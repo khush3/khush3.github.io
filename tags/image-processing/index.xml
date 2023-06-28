@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Image Processing | Khush: Roboticist</title>
+    <title>Image processing | Khush: Roboticist</title>
     <link>https://khush3.github.io/tags/image-processing/</link>
       <atom:link href="https://khush3.github.io/tags/image-processing/index.xml" rel="self" type="application/rss+xml" />
-    <description>Image Processing</description>
+    <description>Image processing</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Copyright © 2022 Khush Agrawal</copyright><lastBuildDate>Tue, 01 May 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://khush3.github.io/img/roboticist.jpg</url>
-      <title>Image Processing</title>
+      <title>Image processing</title>
       <link>https://khush3.github.io/tags/image-processing/</link>
     </image>
     
@@ -17,11 +17,14 @@
       <link>https://khush3.github.io/project/harmonic-motion-analyzer/</link>
       <pubDate>Tue, 01 May 2018 00:00:00 +0000</pubDate>
       <guid>https://khush3.github.io/project/harmonic-motion-analyzer/</guid>
-      <description>&lt;p&gt;•Aimed at estimation equation of motion of a target-object video is selected to analyze its motion. &lt;br&gt;
-•Aimed at retrieving data associated with the motion of target-object using  elementary mathematics. &lt;br&gt;
-&lt;em&gt;This project was made for TechnoSeason, 2017 and was awarded first prize.&lt;/em&gt;&lt;/p&gt;
-&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
+      <description>&lt;h3 id=&#34;abstract&#34;&gt;Abstract&lt;/h3&gt;
 &lt;p&gt;Simple harmonic motion can serve as a mathematical model for a variety of motions, such as the oscillation of a spring. Intending to learn computer vision and MATLAB, I worked on analyzing the motion of a target-object undergoing a damped harmonic motion. The target-object was separated from the background using color thresholding and estimated as a point object. Coordinates of this point were recorded and used to estimate the parameters associated with the mathematical model of the system like maximum displacement, mean position, the velocity at different time instants. A mathematical model was estimated by fitting a curve to the recorded data using MATLAB Curve Fitting Toolbox.&lt;/p&gt;
+&lt;h3 id=&#34;contributions&#34;&gt;Contributions&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;Estimated the equation of motion of a target-object video is selected to analyze its motion.&lt;/li&gt;
+&lt;li&gt;Retrieved data associated with the motion of target-object using  elementary mathematics.&lt;/li&gt;
+&lt;li&gt;&lt;em&gt;This project was made for TechnoSeason, 2017 and was awarded first prize.&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
     </item>
     

@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
+    <loc>https://khush3.github.io/tags/electronics/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khush3.github.io/tags/embedded-systems/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khush3.github.io/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khush3.github.io/tags/machine-learning/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khush3.github.io/project/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khush3.github.io/tags/reinforcement-learning/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khush3.github.io/tags/robotics/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khush3.github.io/tags/ros/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khush3.github.io/project/skill-learning/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khush3.github.io/project/snake-robot/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://khush3.github.io/tags/</loc>
+    <lastmod>2023-04-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://khush3.github.io/authors/khush-agrawal/</loc>
     <lastmod>2021-11-07T00:00:00+00:00</lastmod>
   </url><url>
@@ -15,9 +48,6 @@
     <lastmod>2021-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://khush3.github.io/publication/fabric_manipulation/</loc>
-    <lastmod>2021-11-07T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://khush3.github.io/</loc>
     <lastmod>2021-11-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://khush3.github.io/publication_types/</loc>
@@ -59,19 +89,7 @@
     <loc>https://khush3.github.io/project/experience-transfer/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://khush3.github.io/project/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://khush3.github.io/tags/reinforcement-learning/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://khush3.github.io/project/representation_rl/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://khush3.github.io/tags/self/</loc>
-    <lastmod>2020-01-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://khush3.github.io/tags/</loc>
+    <loc>https://khush3.github.io/project/rl-for-rl/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://khush3.github.io/publication_types/2/</loc>
@@ -98,34 +116,25 @@
     <loc>https://khush3.github.io/authors/unmesh-patil/</loc>
     <lastmod>2019-12-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://khush3.github.io/project/rl-implementation-mentorship/</loc>
+    <loc>https://khush3.github.io/mentorship/rl-basics/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://khush3.github.io/tags/electronics/</loc>
+    <loc>https://khush3.github.io/project/rl-basics/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://khush3.github.io/tags/embedded-systems/</loc>
+    <loc>https://khush3.github.io/mentorship/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://khush3.github.io/project/rl-implementation/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://khush3.github.io/tags/mentorship/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://khush3.github.io/tags/mobile-robotics/</loc>
-    <lastmod>2019-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://khush3.github.io/project/digit-classifiers/</loc>
+    <loc>https://khush3.github.io/mentorship/digit-classifiers/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://khush3.github.io/project/terra-former-robot/</loc>
     <lastmod>2019-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://khush3.github.io/project/sign-language/</loc>
+    <loc>https://khush3.github.io/project/sign-language-detector/</loc>
     <lastmod>2019-04-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://khush3.github.io/project/pose_estim/</loc>
+    <loc>https://khush3.github.io/project/pose-estimating-mobile-robot/</loc>
     <lastmod>2018-05-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://khush3.github.io/tags/computer-vision/</loc>
